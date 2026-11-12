@@ -12,7 +12,7 @@ Each of the two—conception and assent—is either immediate or inferential. Th
 
 ## Kinds of Signification (أنواع الدلالات)
 
-Signification—whereby knowing one thing entails knowing another—is either verbal or nonverbal. Each of these is conventional if established by the act of a convention-maker, as when “Zayd” signifies the person himself, or the four indicators signify what they indicate; natural if required by nature, as “ah, ah” signifies chest pain, and a rapid pulse signifies fever; or rational if required by reason, as hearing the word “deyz” from behind a wall signifies that someone is speaking, and as a made object signifies the existence of its maker.
+Signification—whereby knowing one thing entails knowing another—is either verbal or nonverbal. Each of these is conventional if established by the act of a convention-maker, as when “Zayd” signifies the person himself, or the four indicators signify what they indicate; natural if required by nature, as “ah, ah” signifies chest pain, and a rapid pulse signifies fever; or rational if required by reason, as hearing the word “dayz” from behind a wall signifies that someone is speaking, and as a made object signifies the existence of its maker.
 
 The signification relevant here is conventional verbal signification. According to whether a word signifies the whole meaning for which it was assigned, it is correspondence: for example, the word “human” signifies a rational animal. Its signification of part of that meaning—animal alone or rational alone—is inclusion. Its signification of an external concomitant is implication, as when “human” signifies the capacity to write.
 
@@ -30,7 +30,7 @@ A single expression with one meaning is either such that conceiving it prevents 
 
 If the expression has many meanings, then if it is assigned to all of them equally, it is a homonym, such as “ʿayn” for the eye, a spring, gold, the self, and other meanings. If it is not so assigned, but was assigned to one meaning and transferred to a second because of a relation between them, then if its use in the original assigned meaning has been abandoned and its use in the second has become established, it is a transferred term. If the transfer was made by general custom, it is customary, like “beast,” originally assigned to anything that moves on the earth and transferred to four-legged animals. If it was made by religious law, it is juridical, like “prayer,” originally assigned to supplication and transferred to the prescribed acts. If it was made by a special convention, it is technical, like “verb,” originally assigned to what issues from an agent and transferred to a word that indicates a meaning in itself while being associated with one of the times.
 
-If use of the first meaning has not been abandoned, the expression is literal with respect to that meaning and figurative with respect to the second, as with “lion.” A single expression with multiple meanings is synonymous if the meanings are one, as “layth” and “ghadanfar,” or “sitting” and “being seated”; if its meanings are multiple, it is disparate, like “tree” and “stone.”
+If use of the first meaning has not been abandoned, the expression is literal with respect to that meaning and figurative with respect to the second, as with “lion.” A single expression with multiple meanings is synonymous if the meanings are one, as “layth” and “ghaḍanfar,” or “sitting” and “being seated”; if its meanings are multiple, it is disparate, like “tree” and “stone.”
 
 ## The Five Universals (الكليات الخمس)
 
