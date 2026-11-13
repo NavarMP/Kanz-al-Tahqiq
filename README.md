@@ -41,7 +41,7 @@
 
 ## The project
 
-Kanz al-Taḥqīq (كنز التحقيق) is a text-first study archive for readers who want to engage closely with classical works and the ideas around them. Its current collection spans **fiqh, logic, and Arabic grammar**, alongside explanatory notes and public-speaking material. Arabic is kept central, with English and Malayalam editions where available.
+Kanz al-Taḥqīq (كنز التحقيق) is a text-first study archive for readers who want to engage closely with classical works and the ideas around them. Its current collection spans **fiqh, logic, and Arabic grammar**, alongside explanatory notes, public-speaking material, and Malayalam articles. Arabic is kept central, with English and Malayalam editions where available.
 
 The aim is practical: make useful material easier to find, read, search, quote, compare, teach, and revise. A source text, its translation, and a learner's commentary are different things; the repository keeps those layers identifiable and links to references wherever the records provide them.
 
@@ -73,14 +73,15 @@ These are directions for the project, not dated promises:
 
 ## The collection
 
-The repository currently contains **15 Markdown documents** across **three study areas** and **three languages**. The collection is small enough to browse directly and organized so related files stay together.
+The repository currently contains **24 Markdown documents** across **three study areas** and **three languages**. The collection is small enough to browse directly and organized so related files stay together.
 
 | Area | Work and materials | Languages and notes |
 |---|---|---|
 | **Fiqh** | [Fatḥ al-Muʿīn — Arabic text](Texts/Fiqh/fath-al-muin/fath-al-muin.md), [Malayalam translation](Texts/Fiqh/fath-al-muin/fath-al-muin-ml.md), and [Arabic–Malayalam study notes](Texts/Fiqh/fath-al-muin/Notes/Fath-al-Muin-Study-Note-Ar-Ml.md) | The available text covers the introduction and prayer material through the funeral prayer. The Arabic vocalization is automatically generated; the Malayalam translation is marked as a preliminary machine translation. |
 | **Logic** | [Taṣrīḥ al-Manṭiq — Arabic](Texts/Mantiq/tasrih-al-mantiq/Tasrih-al-mantiq.md), [English](Texts/Mantiq/tasrih-al-mantiq/Tasrih-al-Mantiq-En.md), and [Malayalam](Texts/Mantiq/tasrih-al-mantiq/Tasrih-al-Mantiq-ml.md), with [Arabic](Texts/Mantiq/tasrih-al-mantiq/Notes/tasrih-al-mantiq-note.md), [English](Texts/Mantiq/tasrih-al-mantiq/Notes/Tasrih-al-Mantiq-note-En.md), and [Malayalam](Texts/Mantiq/tasrih-al-mantiq/Notes/Tasrih-al-Mantiq-note-Ml.md) study guides | The guides map the text, explain its topics, and include tables, diagrams, and examples. The English guide describes how it compares the supplied text with a 2019 fourth edition from Jamia Islamia Hind. |
 | **Arabic grammar** | [Alfiyyah Ibn Mālik](Texts/Nahw/alfiyyah/alfiyyah-ibn-malik.md) and a [study sheet and thematic index for *Sharḥ al-Khulāṣah al-Alfiyyah*](Texts/Nahw/alfiyyah/Sharh/Sharh-alfiyyah-by-makhdumayn.md) | The poem file has an Arabic chapter index. The study sheet summarizes a named printed edition; it is not a full transcription of the commentary. |
-| **Speeches and essays** | [Spirituality Is Far from Wahhabism — English](speeches/English/spirituality-wahhabism.md), [group version](speeches/English/spirituality-wahabism-group.md), [AI-assisted draft](speeches/English/spirituality-wahhabism-chatgpt.md), and [Sufism Is Love — Malayalam](speeches/Malayalam/sufism-is-love.md) | Public-speaking and reflective material on spirituality, *taṣawwuf*, and religious life. Citations appear in the individual pieces. |
+| **Articles — Malayalam** | [ഹദീസിലെ ശൈഖാനി](Articles/Malayalam/hadithile-sheikhani.md), [അല്ലാഹു മൊറാലിറ്റിക്കെതിരോ?](Articles/Malayalam/allahu-moralitykkethiro.md), [റിവേഴ്സ് ഗിയറിൽ ഓടുന്ന so-called ‘പുരോഗമനം’](Articles/Malayalam/reverse-gear-progress.md), and [ലോകകപ്പ്: ബഹിഷ്കരിക്കേണ്ടവർ തോളിലേറ്റുന്നു](Articles/Malayalam/world-cup-boycott.md) | The first and fourth articles link to their Darshanam Magazine publication pages. |
+| **Speeches and essays** | [Spirituality Is Far from Wahhabism — English](speeches/English/spirituality-wahhabism.md), [group version](speeches/English/spirituality-wahabism-group.md), [AI-assisted draft](speeches/English/spirituality-wahhabism-chatgpt.md), [Sufism Is Love — Malayalam](speeches/Malayalam/sufism-is-love.md), [opening address](speeches/Malayalam/opening-speech-soul-pain-and-light.md), [Man is Not a Political Animal but a Spiritual One](speeches/Malayalam/manushyan-rashtreeya-jeeviyalla-aathmeeya-jeeviyanu.md), [Da'wah: Medium and Message](speeches/Malayalam/dawah-medium-and-message.md), [Nature and Spiritual Responsibility](speeches/Malayalam/prakrithi-duranthangalum-aatmeeya-bodhyavum.md), and [Tawbah Naṣūḥah — Arabic speech with Malayalam meanings](speeches/Arabic/tawbah-nasuhah.md) | Public-speaking and reflective material on spirituality, *taṣawwuf*, da'wah, and religious life. Citations appear in the individual pieces. |
 
 ### A study path
 
@@ -144,9 +145,13 @@ Texts/
     └── Sharh/
         └── Sharh-alfiyyah-by-makhdumayn.md # Study sheet for a printed commentary
 
+Articles/
+└── Malayalam/                           # Malayalam articles
+
 speeches/
+├── Arabic/                              # Arabic speech scripts with Malayalam meanings
 ├── English/                             # Speech versions
-└── Malayalam/                           # Speech
+└── Malayalam/                           # Malayalam speeches and scripts
 ```
 
 </details>
@@ -190,10 +195,10 @@ The badges at the top report live GitHub stars, forks, watchers, open issues, an
 
 | Measure | Current snapshot |
 |---|---:|
-| Markdown documents (excluding this README) | 15 |
+| Markdown documents (excluding this README) | 24 |
 | Core study areas | 3 — fiqh, logic, Arabic grammar |
 | Languages represented | 3 — Arabic, English, Malayalam |
-| Main content groups | 2 — study texts and speeches |
+| Main content groups | 3 — study texts, articles, and speeches |
 
 Counts describe the current repository layout and will change as the collection grows. The next useful quality indicators are source coverage, review status, and the completeness of each item's edition record; these are not yet tracked centrally.
 
@@ -223,6 +228,7 @@ The repository history currently credits the project to this maintainer. Additio
 
 - [Browse all files](https://github.com/NavarMP/Kanz-al-Tahqiq/tree/main)
 - [Read the study texts](Texts/)
+- [Read the articles](Articles/)
 - [Read the speeches](speeches/)
 - [Open an issue or suggest a source](https://github.com/NavarMP/Kanz-al-Tahqiq/issues/new)
 - [View pull requests](https://github.com/NavarMP/Kanz-al-Tahqiq/pulls)
