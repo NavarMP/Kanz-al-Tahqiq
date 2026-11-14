@@ -1,68 +1,51 @@
 # Spirituality Is Far from Wahhabism
 
+*ADSA Mehrajan’26 · “വെളിച്ചത്തിരുട്ട്” · Five-minute speech at a measured pace. Source links are for readers, not for recitation.*
+
+## Speech
+
 <p dir="rtl" lang="ar">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
 
-All praise belongs to Allah, Lord of all worlds. May peace and blessings be upon our beloved Prophet Muhammad ﷺ, his family, his companions, and all who follow his path.
+All praise belongs to Allah, the Light of the heavens and the earth. May peace and blessings be upon our beloved Prophet Muhammad ﷺ, whose life taught the world what divine light looks like when it becomes mercy.
 
-Respected judges, honourable teachers, and my dear brothers and sisters,
+Respected judges, teachers, and my dear brothers and sisters,
 
-Imagine polishing a lamp while leaving its flame unlit. Its surface may shine, but it cannot guide anyone home. The outward forms of worship are precious; their light reaches its fullness when they awaken sincerity, humility, and mercy within us. This inward life is *Ihsan*.
+Our fest theme is **“വെളിച്ചത്തിരുട്ട്” — light in darkness.** Darkness is not always the absence of light. Sometimes it begins when a light becomes so certain of itself that it refuses to see another heart.
 
-In the Hadith of Jibril, the Prophet ﷺ described *Ihsan*:
+Tonight, let us speak plainly about the word in our title: **Wahhabism.**
 
-<p dir="rtl" lang="ar">أَنْ تَعْبُدَ اللَّهَ كَأَنَّكَ تَرَاهُ، فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ</p>
+In the eighteenth century, in Najd in central Arabia, the scholar Muhammad ibn Abd al-Wahhab called Muslims back to *tawhid*—the worship of Allah alone—and to the Qur’an and Sunnah. He condemned practices he believed threatened that oneness, including certain forms of devotion at graves and appeals to saints. His movement joined in a political alliance with Muhammad ibn Saud around 1744; faith and state power then travelled together through the rise of the Saudi state. That is the historical outline given in academic studies of the movement. The word *Wahhabi* is also used loosely today, so it should not be carelessly applied to every Salafi, reformer, or Muslim who receives that label. ([Oxford Bibliographies on Wahhabism](https://academic.oup.com/reference/62361/reference-article-abstract/554572759); [Cambridge, “On the Origins of Wahhābism”](https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/on-the-origins-of-wahhabism/EA534F7654855C44E7432B813624754E))
 
-**Meaning: “Worship Allah as if you see Him; if you cannot see Him, He sees you.”** ([Hadith of Jibril, Sahih Muslim 8a, Book 1, Hadith 1](https://sunnah.com/muslim:8a))
+Here is the living disagreement. Many traditional Sunni Muslims understand *mawlid*, *tawassul*, and visiting the righteous as expressions of love and remembrance—not worship of anyone besides Allah. Wahhabi teaching has often challenged certain forms of these practices as *bid‘ah* or as dangers to *tawhid*. In Kerala, the words *Wahhabi*, *Salafi*, and *Mujahid* can be used as if they mean exactly the same thing; they do not always. Even the supplied articles reflect different arguments about these labels and our shared history. ([Islamonweb: “Who are the Wahhabis? Who are the Mujahids?”](https://islamonweb.net/ml/%E0%B4%86%E0%B4%B0%E0%B4%BE%E0%B4%A3%E0%B5%8D-%E0%B4%B5%E0%B4%B9%E0%B4%BE%E0%B4%AC%E0%B4%BF%E0%B4%95%E0%B4%B3%E0%B5%8D%E2%80%8D--%E0%B4%86%E0%B4%B0%E0%B4%BE%E0%B4%A3%E0%B5%8D-%E0%B4%AE%E0%B5%81%E0%B4%9C%E0%B4%BE%E0%B4%B9%E0%B4%BF%E0%B4%A6%E0%B1%81%E0%B4%95%E0%B4%B3%E0%B5%8D%E2%80%8D--512); [Sunnivoice’s critique of Wahhabism](https://sunnivoice.net/%e0%b4%b5%e0%b4%b9%e0%b4%be%e0%b4%ac%e0%b4%bf%e0%b4%b8%e0%b4%ae%e0%b5%86%e0%b4%a8%e0%b5%8d%e0%b4%a8-%e0%b4%ae%e0%b4%a8%e0%b5%81%e0%b4%b7%e0%b5%8d%e0%b4%af%e0%b4%a8%e0%b4%bf%e0%b5%bc%e0%b4%ae%e0%b4%bf/); [Islamonweb on Wahhabism](https://islamonweb.net/ml/%E0%B4%B5%E0%B4%B9%E0%B4%BE%E0%B4%AC%E0%B4%BF%E0%B4%B8%E0%B4%82-4014))
 
-This awareness turns ordinary moments into worship: a gentle word when anger rises, honesty when no one is watching, and kindness offered without seeking praise.
+Some of the supplied essays make strong claims about British influence. Those claims deserve careful examination, not repetition as settled fact: the eighteenth-century origins and the later political history are distinct questions. ([Sunnivoice on British-Wahhabi ties](https://sunnivoice.net/%e0%b4%ac%e0%b5%8d%e0%b4%b0%e0%b4%bf%e0%b4%9f%e0%b5%8d%e0%b4%9f%e0%b5%80%e0%b4%b7%e0%b5%8d-%e0%b4%b5%e0%b4%b9%e0%b4%be%e0%b4%ac%e0%b4%bf-%e0%b4%ac%e0%b4%be%e0%b4%a8%e0%b5%8d%e0%b4%a7%e0%b4%b5%e0%b4%82/); [IslamSight’s article](https://islamsight.org/article/wahhabismsalafismorprotestantisminislam/92); [Oxford’s historical overview](https://academic.oup.com/reference/62361/reference-article-abstract/554572759))
 
-Allah says in Surah Ash-Shams:
+So why say, **“Spirituality is far from Wahhabism”**? Not to declare that every person called Wahhabi is loveless; Allah alone knows the secrets of hearts. This title questions a religious approach when it sees inherited love only as darkness, reduces centuries of scholarship to suspicion, or makes condemnation louder than compassion. We can defend our Sunni spiritual inheritance—its learning, its reverence, its remembrance, its *tazkiyah*—without humiliating another Muslim.
 
-<p dir="rtl" lang="ar">قَدْ أَفْلَحَ مَن زَكَّىٰهَا ۝ وَقَدْ خَابَ مَن دَسَّىٰهَا</p>
+Allah describes His Messenger ﷺ as:
 
-**“Successful indeed is the one who purifies their soul, and doomed is the one who corrupts it!”** ([Qur’an, Surah Ash-Shams 91:9–10](https://quran.com/91/9-10))
+<p dir="rtl" lang="ar">وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِّلْعَالَمِينَ</p>
 
-This is *Tazkiyat al-Nafs*: noticing pride before it hardens, envy before it poisons, and heedlessness before it steals the sweetness of worship. The first heart we are asked to examine is our own.
+**“We have sent you ˹O Prophet˺ only as a mercy for the whole world.”** ([Qur’an 21:107](https://quran.com/al-anbya/107))
 
-The Sufi scholar Ibn ‘Ata’ Allah al-Iskandari gives this image of sincerity:
+And the Prophet ﷺ taught:
 
-<p dir="rtl" lang="ar">الأَعْمَالُ صُوَرٌ قَائِمَةٌ، وَأَرْوَاحُهَا وُجُودُ سِرِّ الإِخْلَاصِ فِيهَا</p>
+<p dir="rtl" lang="ar">إِنَّ اللَّهَ رَفِيقٌ يُحِبُّ الرِّفْقَ</p>
 
-**“Actions are lifeless forms, but the presence of an inner reality of sincerity within them is what endows them with life-giving Spirit.”** ([Ibn ‘Ata’ Allah al-Iskandari, *al-Hikam al-‘Ata’iyya*, Aphorism 10; Arabic text and Victor Danner’s translation](https://www.themathesontrust.org/papers/islam/ibnataallah-hikam.pdf))
+**“Allah is kind, and He loves kindness.”** ([Sahih Muslim 2593](https://sunnah.com/muslim:2593))
 
-Sound *Tasawwuf* calls us to live the Shariah with sincerity, discipline, and love. The heart is a mirror: remembrance clears its dust, repentance restores its brightness, and service lets its light fall on others.
+If our theology makes us cruel, we must ask whether we have carried its light well. If our learning makes us proud, we must return to the lesson of the heart. Ibn ‘Ata’ Allah al-Iskandari wrote, **“Actions are lifeless forms, but the presence of an inner reality of sincerity within them is what endows them with life-giving Spirit.”** ([*al-Hikam al-‘Ata’iyya*, Aphorism 10](https://www.themathesontrust.org/papers/islam/ibnataallah-hikam.pdf))
 
-History gives this teaching a human face. In *Deliverance from Error*, Imam al-Ghazali recounts leaving Baghdad during a spiritual crisis; his withdrawal from public teaching lasted eleven years. He closes with a prayer:
+Let truth be held with gentleness,  
+Let love outlive our argument;  
+Let every heart that leaves our side  
+Still find Allah’s door open wide.
 
-<p dir="rtl" lang="ar">فَأَسْأَلُهُ أَنْ يُصْلِحَنِي أَوَّلًا، ثُمَّ يُصْلِحَ بِي</p>
+Dear friends, let us study before we accuse, ask before we assume, and disagree without stealing one another’s dignity. Do not answer a harsh label with a harsher one. Let the Qur’an be our lamp, the Prophet’s mercy its warmth, and humility the glass that keeps its flame from blinding us.
 
-**“I ask Him first of all to reform me and then to reform through me.”** ([Abu Hamid al-Ghazali, *Deliverance from Error*, concluding section; Arabic text](https://www.ghazali.org/books/munqhid-french.pdf) · [W. Montgomery Watt’s English translation](https://www.ghazali.org/books/gz-wat-del.pdf))
+At **“വെളിച്ചത്തിരുട്ട്,”** let our light help someone find the way home.
 
-What humility: before asking to change the world, ask Allah to begin with the heart.
-
-So when I say, “Spirituality Is Far from Wahhabism,” I speak of any religious outlook that makes outward conformity the whole of faith and leaves too little room for the inward journey. This title is not a judgment on the sincerity of people who bear a label; only Allah knows each heart. Muslims may disagree sincerely about particular practices. We can hold our convictions, study carefully, and still guard one another’s dignity.
-
-The Prophet ﷺ taught:
-
-<p dir="rtl" lang="ar">إِنَّ اللَّهَ لَا يَنْظُرُ إِلَى صُوَرِكُمْ وَأَمْوَالِكُمْ وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ وَأَعْمَالِكُمْ</p>
-
-**“Verily Allah does not look to your faces and your wealth but He looks to your heart and to your deeds.”** ([Sahih Muslim 2564c, Book 45, Hadith 42](https://sunnah.com/muslim:2564c))
-
-After prayer, does our family receive more patience? After learning, do our neighbours receive more kindness? Does our love for the Messenger ﷺ appear in the mercy we show to people?
-
-In *The Merchant of Venice*, Shakespeare gives mercy the image of gentle rain:
-
-> “The quality of mercy is not strained.  
-> It droppeth as the gentle rain from heaven  
-> Upon the place beneath.” ([William Shakespeare, *The Merchant of Venice*, Act 4, Scene 1, lines 190–193](https://www.folger.edu/explore/shakespeares-works/the-merchant-of-venice/))
-
-Let knowledge make the heart more kind,  
-Let worship leave no pride behind.  
-Let love be seen in what we do,  
-And mercy shine in all we pursue. ([Poem adapted from the supplied draft](spirituality-wahhabism-chatgpt.md))
-
-Thus, worship and character become one prayer: a heart turned to Allah and hands made gentle toward His creation.
-
-May Allah purify our hearts, grant us beneficial knowledge and sincere worship, fill us with love for His beloved Messenger ﷺ, and make our character a comfort to those around us. May He unite us upon goodness and teach us to disagree without hatred.
+May Allah purify our hearts, unite us upon goodness, and make our presence a mercy to all.
 
 Thank you. **Assalamu Alaikum wa Rahmatullahi wa Barakatuh.**
+
