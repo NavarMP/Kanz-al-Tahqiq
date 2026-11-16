@@ -1,0 +1,1 @@
+Fest/velichathirutt/magazine.md
