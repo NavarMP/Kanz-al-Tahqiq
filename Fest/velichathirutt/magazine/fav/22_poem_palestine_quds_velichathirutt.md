@@ -1,5 +1,6 @@
-# വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT)
-## കാവ്യവേദി (POETRY OF RESISTANCE & TRUTH)
+# കനൽ (KANAL)
+### *പ്രമേയം: വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT — The Luminous Darkness)*
+## [പേജ് 26]: കാവ്യവേദി (POETRY OF RESISTANCE & TRUTH)
 
 ---
 

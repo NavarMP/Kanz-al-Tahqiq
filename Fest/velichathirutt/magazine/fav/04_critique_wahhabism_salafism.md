@@ -1,5 +1,6 @@
-# വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT)
-## ആദർശ വിശകലനം (IDEOLOGICAL CRITIQUE)
+# കനൽ (KANAL)
+### *പ്രമേയം: വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT — The Luminous Darkness)*
+## [പേജുകൾ 09 - 10]: ആദർശ വിശകലനം (IDEOLOGICAL CRITIQUE)
 
 ---
 

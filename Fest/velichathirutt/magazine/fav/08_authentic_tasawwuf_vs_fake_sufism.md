@@ -1,5 +1,6 @@
-# വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT)
-## ആത്മീയതയും സൂഫിസവും (AUTHENTIC TASAWWUF VS COUNTERFEIT)
+# കനൽ (KANAL)
+### *പ്രമേയം: വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT — The Luminous Darkness)*
+## [പേജുകൾ 11 - 12]: തസവ്വുഫ് & ആത്മീയത (AUTHENTIC TASAWWUF VS COUNTERFEIT)
 
 ---
 

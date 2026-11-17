@@ -1,5 +1,6 @@
-# വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT)
-## [പേജുകൾ 06 - 07]: കേന്ദ്ര പ്രബന്ധം (THEMATIC SCHOLARLY ESSAY)
+# കനൽ (KANAL)
+### *പ്രമേയം: വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT — The Luminous Darkness)*
+## [പേജുകൾ 06 - 08]: കേന്ദ്ര പ്രബന്ധം (THEMATIC SCHOLARLY ESSAY)
 
 ---
 

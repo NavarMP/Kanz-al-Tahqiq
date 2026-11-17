@@ -1,5 +1,6 @@
-# വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT)
-## ദർസ് സ്മൃതി (THE SACRED TRADITION OF MALABAR DARS)
+# കനൽ (KANAL)
+### *പ്രമേയം: വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT — The Luminous Darkness)*
+## [പേജുകൾ 22 - 23]: ദർസ് സ്മൃതി (THE SACRED TRADITION OF MALABAR DARS)
 
 ---
 

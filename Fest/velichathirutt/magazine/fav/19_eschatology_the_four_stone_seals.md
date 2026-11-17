@@ -1,5 +1,6 @@
-# വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT)
-## ദജ്ജാലിയ്യത്തും എസ്കറ്റോളജിയും (THE ESCHATOLOGICAL SHIELD)
+# കനൽ (KANAL)
+### *പ്രമേയം: വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT — The Luminous Darkness)*
+## [പേജുകൾ 24 - 25]: ദജ്ജാലിയ്യത്തും എസ്കറ്റോളജിയും (THE ESCHATOLOGICAL SHIELD)
 
 ---
 

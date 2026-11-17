@@ -1,5 +1,6 @@
-# വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT)
-## സമകാലിക സമൂഹം (CONTEMPORARY SOCIOLOGY & DIGITAL ADDICTION)
+# കനൽ (KANAL)
+### *പ്രമേയം: വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT — The Luminous Darkness)*
+## [പേജുകൾ 16 - 18]: സമകാലിക സമൂഹം (CONTEMPORARY SOCIOLOGY & DIGITAL ADDICTION)
 
 ---
 

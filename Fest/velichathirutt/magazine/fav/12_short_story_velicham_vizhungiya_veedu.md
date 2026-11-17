@@ -1,5 +1,6 @@
-# വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT)
-## [പേജുകൾ 20 - 21]: ചെറുകഥ (LITERARY SHORT STORY)
+# കനൽ (KANAL)
+### *പ്രമേയം: വെളിച്ചത്തിരുട്ട് (VELICHATHIRUTT — The Luminous Darkness)*
+## [പേജുകൾ 13 - 15]: ചെറുകഥ (LITERARY SHORT STORY)
 
 ---
 
