@@ -177,6 +177,10 @@ Small fixes—typos, broken links, missing metadata, and clear source correction
 - Improve heading structure, accessibility, links, or right-to-left rendering.
 - Report an error with the file path, passage, proposed correction, and source.
 
+### Editorial guidelines & AI pair programming
+
+Contributors and agentic AI tools working in this repository should consult [SKILL.md](SKILL.md) (or [.agents/skills/kanz-al-tahqiq/SKILL.md](.agents/skills/kanz-al-tahqiq/SKILL.md)) for strict right-to-left (RTL) rules, Tashkīl preservation, trilingual glossary schemas, citation links (Shamela, Quran.com, Sunnah.com), and helper scripts (`validate_markdown_rtl.py`, `check_verse_meter.py`).
+
 ## Open collaboration and licensing
 
 The repository is **public and open to contributions**. However, there is currently no `LICENSE` file. Public visibility on GitHub does not by itself grant permission to reuse or redistribute the repository's original material.
