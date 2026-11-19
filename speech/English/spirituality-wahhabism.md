@@ -1,8 +1,6 @@
 # Spirituality Is Far from Wahhabism
 
-*ADSA Mehrajan’26 · “വെളിച്ചത്തിരുട്ട്” · Five-minute speech at a measured pace. Source links are for readers, not for recitation.*
-
-## Speech
+*ADSA Mehrajan’26 · “വെളിച്ചത്തിരുട്ട്” · 5 Minutes Speech
 
 <p dir="rtl" lang="ar">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
 
@@ -14,11 +12,11 @@ Our fest theme is **“വെളിച്ചത്തിരുട്ട്” �
 
 Tonight, let us speak plainly about the word in our title: **Wahhabism.**
 
-In the eighteenth century, in Najd in central Arabia, the scholar Muhammad ibn Abd al-Wahhab called Muslims back to *tawhid*—the worship of Allah alone—and to the Qur’an and Sunnah. He condemned practices he believed threatened that oneness, including certain forms of devotion at graves and appeals to saints. His movement joined in a political alliance with Muhammad ibn Saud around 1744; faith and state power then travelled together through the rise of the Saudi state. That is the historical outline given in academic studies of the movement. The word *Wahhabi* is also used loosely today, so it should not be carelessly applied to every Salafi, reformer, or Muslim who receives that label. ([Oxford Bibliographies on Wahhabism](https://academic.oup.com/reference/62361/reference-article-abstract/554572759); [Cambridge, “On the Origins of Wahhābism”](https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/on-the-origins-of-wahhabism/EA534F7654855C44E7432B813624754E))
+In the eighteenth century, in Najd in central Arabia, the scholar Muhammad ibn Abd al-Wahhab called Muslims back to *tawhid*—the worship of Allah alone—and to the Qur’an and Sunnah. He condemned practices he believed threatened that oneness, including certain forms of devotion at graves and appeals to saints. His movement joined in a political alliance with Muhammad ibn Saud around 1744; State power then travelled through the rise of the Saudi state. ([Oxford Bibliographies on Wahhabism](https://academic.oup.com/reference/62361/reference-article-abstract/554572759); [Cambridge, “On the Origins of Wahhābism”](https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/on-the-origins-of-wahhabism/EA534F7654855C44E7432B813624754E))
 
-Here is the living disagreement. Many traditional Sunni Muslims understand *mawlid*, *tawassul*, and visiting the righteous as expressions of love and remembrance—not worship of anyone besides Allah. Wahhabi teaching has often challenged certain forms of these practices as *bid‘ah* or as dangers to *tawhid*. In Kerala, the words *Wahhabi*, *Salafi*, and *Mujahid* can be used as if they mean exactly the same thing; they do not always. Even the supplied articles reflect different arguments about these labels and our shared history. ([Islamonweb: “Who are the Wahhabis? Who are the Mujahids?”](https://islamonweb.net/ml/%E0%B4%86%E0%B4%B0%E0%B4%BE%E0%B4%A3%E0%B5%8D-%E0%B4%B5%E0%B4%B9%E0%B4%BE%E0%B4%AC%E0%B4%BF%E0%B4%95%E0%B4%B3%E0%B5%8D%E2%80%8D--%E0%B4%86%E0%B4%B0%E0%B4%BE%E0%B4%A3%E0%B5%8D-%E0%B4%AE%E0%B5%81%E0%B4%9C%E0%B4%BE%E0%B4%B9%E0%B4%BF%E0%B4%A6%E0%B1%81%E0%B4%95%E0%B4%B3%E0%B5%8D%E2%80%8D--512); [Sunnivoice’s critique of Wahhabism](https://sunnivoice.net/%e0%b4%b5%e0%b4%b9%e0%b4%be%e0%b4%ac%e0%b4%bf%e0%b4%b8%e0%b4%ae%e0%b5%86%e0%b4%a8%e0%b5%8d%e0%b4%a8-%e0%b4%ae%e0%b4%a8%e0%b5%81%e0%b4%b7%e0%b5%8d%e0%b4%af%e0%b4%a8%e0%b4%bf%e0%b5%bc%e0%b4%ae%e0%b4%bf/); [Islamonweb on Wahhabism](https://islamonweb.net/ml/%E0%B4%B5%E0%B4%B9%E0%B4%BE%E0%B4%AC%E0%B4%BF%E0%B4%B8%E0%B4%82-4014))
+Here is the living disagreement. Many traditional Sunni Muslims understand *mawlid*, *tawassul*, and visiting the righteous as expressions of love and remembrance—not worship of anyone besides Allah. Wahhabi teaching has often challenged certain forms of these practices as *bid‘ah* or as dangers to *tawhid*. ([Islamonweb: “Who are the Wahhabis? Who are the Mujahids?”](https://islamonweb.net/ml/%E0%B4%86%E0%B4%B0%E0%B4%BE%E0%B4%A3%E0%B5%8D-%E0%B4%B5%E0%B4%B9%E0%B4%BE%E0%B4%AC%E0%B4%BF%E0%B4%95%E0%B4%B3%E0%B5%8D%E2%80%8D--%E0%B4%86%E0%B4%B0%E0%B4%BE%E0%B4%A3%E0%B5%8D-%E0%B4%AE%E0%B5%81%E0%B4%9C%E0%B4%BE%E0%B4%B9%E0%B4%BF%E0%B4%A6%E0%B1%81%E0%B4%95%E0%B4%B3%E0%B5%8D%E2%80%8D--512); [Sunnivoice’s critique of Wahhabism](https://sunnivoice.net/%e0%b4%b5%e0%b4%b9%e0%b4%be%e0%b4%ac%e0%b4%bf%e0%b4%b8%e0%b4%ae%e0%b5%86%e0%b4%a8%e0%b5%8d%e0%b4%a8-%e0%b4%ae%e0%b4%a8%e0%b5%81%e0%b4%b7%e0%b5%8d%e0%b4%af%e0%b4%a8%e0%b4%bf%e0%b5%bc%e0%b4%ae%e0%b4%bf/); [Islamonweb on Wahhabism](https://islamonweb.net/ml/%E0%B4%B5%E0%B4%B9%E0%B4%BE%E0%B4%AC%E0%B4%BF%E0%B4%B8%E0%B4%82-4014))
 
-Some of the supplied essays make strong claims about British influence. Those claims deserve careful examination, not repetition as settled fact: the eighteenth-century origins and the later political history are distinct questions. ([Sunnivoice on British-Wahhabi ties](https://sunnivoice.net/%e0%b4%ac%e0%b5%8d%e0%b4%b0%e0%b4%bf%e0%b4%9f%e0%b5%8d%e0%b4%9f%e0%b5%80%e0%b4%b7%e0%b5%8d-%e0%b4%b5%e0%b4%b9%e0%b4%be%e0%b4%ac%e0%b4%bf-%e0%b4%ac%e0%b4%be%e0%b4%a8%e0%b5%8d%e0%b4%a7%e0%b4%b5%e0%b4%82/); [IslamSight’s article](https://islamsight.org/article/wahhabismsalafismorprotestantisminislam/92); [Oxford’s historical overview](https://academic.oup.com/reference/62361/reference-article-abstract/554572759))
+([Sunnivoice on British-Wahhabi ties](https://sunnivoice.net/%e0%b4%ac%e0%b5%8d%e0%b4%b0%e0%b4%bf%e0%b4%9f%e0%b5%8d%e0%b4%9f%e0%b5%80%e0%b4%b7%e0%b5%8d-%e0%b4%b5%e0%b4%b9%e0%b4%be%e0%b4%ac%e0%b4%bf-%e0%b4%ac%e0%b4%be%e0%b4%a8%e0%b5%8d%e0%b4%a7%e0%b4%b5%e0%b4%82/); [IslamSight’s article](https://islamsight.org/article/wahhabismsalafismorprotestantisminislam/92); [Oxford’s historical overview](https://academic.oup.com/reference/62361/reference-article-abstract/554572759))
 
 So why say, **“Spirituality is far from Wahhabism”**? Not to declare that every person called Wahhabi is loveless; Allah alone knows the secrets of hearts. This title questions a religious approach when it sees inherited love only as darkness, reduces centuries of scholarship to suspicion, or makes condemnation louder than compassion. We can defend our Sunni spiritual inheritance—its learning, its reverence, its remembrance, its *tazkiyah*—without humiliating another Muslim.
 
@@ -40,6 +38,15 @@ Let truth be held with gentleness,
 Let love outlive our argument;  
 Let every heart that leaves our side  
 Still find Allah’s door open wide.
+
+Authentic Tasawwuf isn't deviation; it's the science of purifying the heart from pride, jealousy, and arrogance. Great masters like Imam Junayd al-Baghdadi and Imam al-Ghazzali showed us that Shariah and spirituality go hand in hand. Yet Wahhabi ideology completely rejected this spiritual heritage.
+
+Our Prophet ﷺ defined Ihsan as:
+أن تعبد الله كأنك تراه؛ فإن لم تكن تراه فإنه يراك ([Riyad as Salihin 60](https://sunnah.com/riyadussalihin:60))
+"It is to worship Allah as if you are seeing Him; and although you do not see Him, He sees you."
+This is the the true soul of spirituality! What's the use of worship if the heart has no sincerity?
+
+My dear brothers, we believe in Tawhid without insulting the Prophet. We believe in Shariah without abandoning Tasawwuf. A religion that touches only the body but forgets the heart has lost its tru beauty.
 
 Dear friends, let us study before we accuse, ask before we assume, and disagree without stealing one another’s dignity. Do not answer a harsh label with a harsher one. Let the Qur’an be our lamp, the Prophet’s mercy its warmth, and humility the glass that keeps its flame from blinding us.
 

@@ -1,0 +1,278 @@
+{
+  "source": "speech/English/spirituality-wahhabism.md",
+  "total_segments": 34,
+  "segments": [
+    {
+      "language": "arabic",
+      "voice": "ar-SA-HamedNeural",
+      "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "rate": "-10%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 1000
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "All praise belongs to Allah, the Light of the heavens and the earth. May peace and blessings be upon our beloved Prophet Muhammad, peace and blessings be upon him, whose life taught the world what divine light looks like when it becomes mercy.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 750
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Respected judges, teachers, and my dear brothers and sisters,",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 350
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Our fest theme is",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 500
+    },
+    {
+      "language": "malayalam",
+      "voice": "ml-IN-MidhunNeural",
+      "text": "വെളിച്ചത്തിരുട്ട്",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 250
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "— light in darkness. Darkness is not always the absence of light. Sometimes it begins when a light becomes so certain of itself that it refuses to see another heart.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 750
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Tonight, let us speak plainly about the word in our title: Wahhabism.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 500
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "In the eighteenth century, in Najd in central Arabia, the scholar Muhammad ibn Abd al-Wahhab called Muslims back to tawhid—the worship of Allah alone—and to the Qur’an and Sunnah. He condemned practices he believed threatened that oneness, including certain forms of devotion at graves and appeals to saints. His movement joined in a political alliance with Muhammad ibn Saud around 1744; State power then travelled through the rise of the Saudi state.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 750
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Here is the living disagreement. Many traditional Sunni Muslims understand mawlid, tawassul, and visiting the righteous as expressions of love and remembrance—not worship of anyone besides Allah. Wahhabi teaching has often challenged certain forms of these practices as bid‘ah or as dangers to tawhid.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 750
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "So why say, “Spirituality is far from Wahhabism”? Not to declare that every person called Wahhabi is loveless; Allah alone knows the secrets of hearts. This title questions a religious approach when it sees inherited love only as darkness, reduces centuries of scholarship to suspicion, or makes condemnation louder than compassion. We can defend our Sunni spiritual inheritance—its learning, its reverence, its remembrance, its tazkiyah—without humiliating another Muslim.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 750
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Allah describes His Messenger, peace and blessings be upon him, as:",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 500
+    },
+    {
+      "language": "arabic",
+      "voice": "ar-SA-HamedNeural",
+      "text": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِّلْعَالَمِينَ",
+      "rate": "-10%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 800
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "We have sent you O Prophet, only as a mercy for the whole world.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 500
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "And the Prophet, peace and blessings be upon him, taught:",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 500
+    },
+    {
+      "language": "arabic",
+      "voice": "ar-SA-HamedNeural",
+      "text": "إِنَّ اللَّهَ رَفِيقٌ يُحِبُّ الرِّفْقَ",
+      "rate": "-10%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 800
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Allah is kind, and He loves kindness.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 500
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "If our theology makes us cruel, we must ask whether we have carried its light well. If our learning makes us proud, we must return to the lesson of the heart. Ibn ‘Ata’ Allah al-Iskandari wrote, “Actions are lifeless forms, but the presence of an inner reality of sincerity within them is what endows them with life-giving Spirit.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 500
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Let truth be held with gentleness,",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 350
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Let love outlive our argument;",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 450
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Let every heart that leaves our side",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 500
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Still find Allah’s door open wide.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 750
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Authentic Tasawwuf isn't deviation; it's the science of purifying the heart from pride, jealousy, and arrogance. Great masters like Imam Junayd al-Baghdadi and Imam al-Ghazzali showed us that Shariah and spirituality go hand in hand. Yet Wahhabi ideology completely rejected this spiritual heritage.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 750
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Our Prophet, peace and blessings be upon him, defined Ihsan as:",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 500
+    },
+    {
+      "language": "arabic",
+      "voice": "ar-SA-HamedNeural",
+      "text": "أن تعبد الله كأنك تراه؛ فإن لم تكن تراه فإنه يراك",
+      "rate": "-10%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 800
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "It is to worship Allah as if you are seeing Him; and although you do not see Him, He sees you.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 500
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "This is the true soul of spirituality! What's the use of worship if the heart has no sincerity?",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 750
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "My dear brothers, we believe in Tawhid without insulting the Prophet. We believe in Shariah without abandoning Tasawwuf. A religion that touches only the body but forgets the heart has lost its true beauty.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 750
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Dear friends, let us study before we accuse, ask before we assume, and disagree without stealing one another’s dignity. Do not answer a harsh label with a harsher one. Let the Qur’an be our lamp, the Prophet’s mercy its warmth, and humility the glass that keeps its flame from blinding us.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 750
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "At",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 500
+    },
+    {
+      "language": "malayalam",
+      "voice": "ml-IN-MidhunNeural",
+      "text": "വെളിച്ചത്തിരുട്ട്",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 250
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "let our light help someone find the way home.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 750
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "May Allah purify our hearts, unite us upon goodness, and make our presence a mercy to all.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 750
+    },
+    {
+      "language": "english",
+      "voice": "en-GB-RyanNeural",
+      "text": "Thank you.",
+      "rate": "-5%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 600
+    },
+    {
+      "language": "arabic",
+      "voice": "ar-SA-HamedNeural",
+      "text": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ",
+      "rate": "-8%",
+      "pitch": "+0Hz",
+      "pause_after_ms": 1200
+    }
+  ]
+}
