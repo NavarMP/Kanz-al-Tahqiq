@@ -12,7 +12,7 @@ Our fest theme is **“വെളിച്ചത്തിരുട്ട്” �
 
 Tonight, let us speak plainly about the word in our title: **Wahhabism.**
 
-In the eighteenth century, in Najd in central Arabia, the scholar Muhammad ibn Abd al-Wahhab called Muslims back to *tawhid*—the worship of Allah alone—and to the Qur’an and Sunnah. He condemned practices he believed threatened that oneness, including certain forms of devotion at graves and appeals to saints. His movement joined in a political alliance with Muhammad ibn Saud around 1744; State power then travelled through the rise of the Saudi state. ([Oxford Bibliographies on Wahhabism](https://academic.oup.com/reference/62361/reference-article-abstract/554572759); [Cambridge, “On the Origins of Wahhābism”](https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/on-the-origins-of-wahhabism/EA534F7654855C44E7432B813624754E))
+In the eighteenth century, in Najd in central Arabia, the scholar Muhammad ibn Abd al-Wahhab called sunnis who are the majority of the Muslims; non-believers. He condemned practices he believed threatened that oneness, including certain forms of devotion at graves and appeals to saints. His movement joined in a political alliance with Muhammad ibn Saud around 1744; State power then travelled through the rise of the Saudi state. ([Oxford Bibliographies on Wahhabism](https://academic.oup.com/reference/62361/reference-article-abstract/554572759); [Cambridge, “On the Origins of Wahhābism”](https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/on-the-origins-of-wahhabism/EA534F7654855C44E7432B813624754E))
 
 Here is the living disagreement. Many traditional Sunni Muslims understand *mawlid*, *tawassul*, and visiting the righteous as expressions of love and remembrance—not worship of anyone besides Allah. Wahhabi teaching has often challenged certain forms of these practices as *bid‘ah* or as dangers to *tawhid*. ([Islamonweb: “Who are the Wahhabis? Who are the Mujahids?”](https://islamonweb.net/ml/%E0%B4%86%E0%B4%B0%E0%B4%BE%E0%B4%A3%E0%B5%8D-%E0%B4%B5%E0%B4%B9%E0%B4%BE%E0%B4%AC%E0%B4%BF%E0%B4%95%E0%B4%B3%E0%B5%8D%E2%80%8D--%E0%B4%86%E0%B4%B0%E0%B4%BE%E0%B4%A3%E0%B5%8D-%E0%B4%AE%E0%B5%81%E0%B4%9C%E0%B4%BE%E0%B4%B9%E0%B4%BF%E0%B4%A6%E0%B1%81%E0%B4%95%E0%B4%B3%E0%B5%8D%E2%80%8D--512); [Sunnivoice’s critique of Wahhabism](https://sunnivoice.net/%e0%b4%b5%e0%b4%b9%e0%b4%be%e0%b4%ac%e0%b4%bf%e0%b4%b8%e0%b4%ae%e0%b5%86%e0%b4%a8%e0%b5%8d%e0%b4%a8-%e0%b4%ae%e0%b4%a8%e0%b5%81%e0%b4%b7%e0%b5%8d%e0%b4%af%e0%b4%a8%e0%b4%bf%e0%b5%bc%e0%b4%ae%e0%b4%bf/); [Islamonweb on Wahhabism](https://islamonweb.net/ml/%E0%B4%B5%E0%B4%B9%E0%B4%BE%E0%B4%AC%E0%B4%BF%E0%B4%B8%E0%B4%82-4014))
 
@@ -44,9 +44,9 @@ Authentic Tasawwuf isn't deviation; it's the science of purifying the heart from
 Our Prophet ﷺ defined Ihsan as:
 أن تعبد الله كأنك تراه؛ فإن لم تكن تراه فإنه يراك ([Riyad as Salihin 60](https://sunnah.com/riyadussalihin:60))
 "It is to worship Allah as if you are seeing Him; and although you do not see Him, He sees you."
-This is the the true soul of spirituality! What's the use of worship if the heart has no sincerity?
+This is the true soul of spirituality! What's the use of worship if the heart has no sincerity?
 
-My dear brothers, we believe in Tawhid without insulting the Prophet. We believe in Shariah without abandoning Tasawwuf. A religion that touches only the body but forgets the heart has lost its tru beauty.
+My dear brothers, we believe in Tawhid without insulting the Prophet. We believe in Shariah without abandoning Tasawwuf. A religion that touches only the body but forgets the heart has lost its true beauty.
 
 Dear friends, let us study before we accuse, ask before we assume, and disagree without stealing one another’s dignity. Do not answer a harsh label with a harsher one. Let the Qur’an be our lamp, the Prophet’s mercy its warmth, and humility the glass that keeps its flame from blinding us.
 
