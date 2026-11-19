@@ -82,6 +82,7 @@ The repository currently contains **24 Markdown documents** across **three study
 | **Arabic grammar** | [Alfiyyah Ibn Mālik](Texts/Nahw/alfiyyah/alfiyyah-ibn-malik.md) and a [study sheet and thematic index for *Sharḥ al-Khulāṣah al-Alfiyyah*](Texts/Nahw/alfiyyah/Sharh/Sharh-alfiyyah-by-makhdumayn.md) | The poem file has an Arabic chapter index. The study sheet summarizes a named printed edition; it is not a full transcription of the commentary. |
 | **Articles — Malayalam** | [ഹദീസിലെ ശൈഖാനി](Articles/Malayalam/hadithile-sheikhani.md), [അല്ലാഹു മൊറാലിറ്റിക്കെതിരോ?](Articles/Malayalam/allahu-moralitykkethiro.md), [റിവേഴ്സ് ഗിയറിൽ ഓടുന്ന so-called ‘പുരോഗമനം’](Articles/Malayalam/reverse-gear-progress.md), and [ലോകകപ്പ്: ബഹിഷ്കരിക്കേണ്ടവർ തോളിലേറ്റുന്നു](Articles/Malayalam/world-cup-boycott.md) | The first and fourth articles link to their Darshanam Magazine publication pages. |
 | **Speeches and essays** | [Spirituality Is Far from Wahhabism — English](speeches/English/spirituality-wahhabism.md), [group version](speeches/English/spirituality-wahabism-group.md), [AI-assisted draft](speeches/English/spirituality-wahhabism-chatgpt.md), [Sufism Is Love — Malayalam](speeches/Malayalam/sufism-is-love.md), [opening address](speeches/Malayalam/opening-speech-soul-pain-and-light.md), [Man is Not a Political Animal but a Spiritual One](speeches/Malayalam/manushyan-rashtreeya-jeeviyalla-aathmeeya-jeeviyanu.md), [Da'wah: Medium and Message](speeches/Malayalam/dawah-medium-and-message.md), [Nature and Spiritual Responsibility](speeches/Malayalam/prakrithi-duranthangalum-aatmeeya-bodhyavum.md), and [Tawbah Naṣūḥah — Arabic speech with Malayalam meanings](speeches/Arabic/tawbah-nasuhah.md) | Public-speaking and reflective material on spirituality, *taṣawwuf*, da'wah, and religious life. Citations appear in the individual pieces. |
+| **Debate (*Munāḍharah*)** | [Arabic — AI: Blessing or Threat? (FOR Team)](debate/arabic/MASTER-PACK.md) and [Malayalam — AI: Existential Threat (AGAINST Team)](debate/malayalam/MASTER-PACK.md) | Scholastic Munāḍharah packs: timed stage scripts, logical syllogisms, cross-examination question banks, rebuttal matrices, and verified evidence. |
 
 ### A study path
 
@@ -147,6 +148,10 @@ Texts/
 
 Articles/
 └── Malayalam/                           # Malayalam articles
+
+debate/
+├── arabic/                              # Arabic Munadhara packs (FOR Team: AI Blessing or Threat)
+└── malayalam/                           # Malayalam Munadhara packs (AGAINST Team: AI Existential Threat)
 
 speeches/
 ├── Arabic/                              # Arabic speech scripts with Malayalam meanings
