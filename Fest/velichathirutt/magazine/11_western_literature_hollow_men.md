@@ -48,7 +48,7 @@ In the haunting aftermath of the First World War, **T.S. Eliot (1888–1965)** p
 > In our dry cellar...  
 > This is the way the world ends  
 > Not with a bang but a whimper."*  
-> — [T.S. Eliot, *The Hollow Men*, Faber & Gwyer, London, 1925](https://www.poetryfoundation.org/poems/45696/the-hollow-men)
+> — [T.S. Eliot, *The Hollow Men*, Faber & Gwyer, London, 1925](https://poets.org/poem/hollow-men)
 
 Eliot describes modern humans as walking scarecrows: bodies packed with straw (consumerism, information, trivial spectacles), but entirely hollow at the core where the divine spirit (*Ruh*) ought to dwell. They gather in crowded digital stadiums and social media forums, whispering incessantly, yet their voices carry zero transcendent meaning.
 

@@ -25,10 +25,10 @@ def run_step(description: str, cmd: list):
         sys.exit(res.returncode)
 
 def main():
-    parser = argparse.ArgumentParser(description="Produce studio-grade audio for any speech, debate, or poem.")
+    parser = argparse.ArgumentParser(description="Produce studio-grade audio for any speech, debate, song, or poem.")
     parser.add_argument("input_file", help="Path to input markdown or text file")
     parser.add_argument("--output-dir", "-o", default=None, help="Output directory for generated audio deliverables")
-    parser.add_argument("--genre", default="speech", choices=["speech", "debate", "poem", "manual"], help="Art form genre")
+    parser.add_argument("--genre", default="speech", choices=["speech", "debate", "poem", "song", "manual"], help="Art form genre")
     parser.add_argument("--title", default=None, help="Title of the artwork (defaults to file stem)")
     parser.add_argument("--artist", default="Kanz al-Taḥqīq Vocal Arts", help="Artist name")
     parser.add_argument("--album", default="Dars Arts Vault", help="Album name")
@@ -37,6 +37,7 @@ def main():
     parser.add_argument("--en-voice", default="en-GB-RyanNeural", help="English neural voice")
     parser.add_argument("--ar-voice", default="ar-SA-HamedNeural", help="Arabic neural voice")
     parser.add_argument("--ml-voice", default="ml-IN-MidhunNeural", help="Malayalam neural voice")
+    parser.add_argument("--ur-voice", default="ur-PK-AsadNeural", help="Urdu neural voice")
     
     args = parser.parse_args()
     input_path = Path(args.input_file).resolve()
@@ -61,7 +62,8 @@ def main():
             "-o", str(perf_json),
             "--en-voice", args.en_voice,
             "--ar-voice", args.ar_voice,
-            "--ml-voice", args.ml_voice
+            "--ml-voice", args.ml_voice,
+            "--ur-voice", args.ur_voice
         ]
     )
     

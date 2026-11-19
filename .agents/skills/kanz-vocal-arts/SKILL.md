@@ -12,7 +12,9 @@ description: >-
 
 Welcome to **Kanz Vocal Arts** (كنز الفنون الصوتية), the dedicated audio production engine of the Kanz al-Taḥqīq library.
 
-This skill equips the agent with a complete digital audio workstation (DAW) pipeline directly within the repository. It transforms written speeches, debates, and poetry into broadcast-ready, award-winning master audio files across Malayalam, Arabic, English, and trilingual blends.
+📖 **Comprehensive User Manual:** For complete step-by-step playbooks, CLI references, and genre guides, consult the [Master Production Guide (HOW_TO_USE.md)](file:///Users/apple/Desktop/docs:books/Kanz-al-Tahqiq/.agents/skills/kanz-vocal-arts/HOW_TO_USE.md).
+
+This skill equips the agent with a complete digital audio workstation (DAW) pipeline directly within the repository. It transforms written speeches, debates, songs, and poetry into broadcast-ready, award-winning master audio files across Malayalam, Arabic, English, Urdu, and multilingual blends.
 
 ---
 

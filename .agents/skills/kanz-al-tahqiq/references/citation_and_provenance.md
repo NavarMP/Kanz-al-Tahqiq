@@ -48,9 +48,9 @@ For source texts (*Mutūn*), commentaries (*Shurūḥ*), and biographical dictio
 
 ```markdown
 - **Fatḥ al-Muʿīn bi-Sharḥ Qurrat al-ʿAyn:** [المكتبة الشاملة: 11327](https://shamela.ws/book/11327)
-- **Sharḥ Ibn ʿAqīl ʿalā Alfiyyat Ibn Mālik:** [المكتبة الشاملة: 11846](https://shamela.ws/book/11846)
+- **Sharḥ Ibn ʿAqīl ʿalā Alfiyyat Ibn Mālik:** [المكتبة الشاملة: 11846](https://shamela.ws/book/9904)
 - **Tafsīr al-Ṭabarī (Jāmiʿ al-Bayān):** [المكتبة الشاملة: 43](https://shamela.ws/book/43)
-- **Tafsīr Ibn Kathīr:** [المكتبة الشاملة: 8180](https://shamela.ws/book/8180)
+- **Tafsīr Ibn Kathīr:** [المكتبة الشاملة: 8473](https://shamela.ws/book/8473)
 ```
 
 ---
@@ -64,7 +64,7 @@ When documenting poetic evidence in grammar (*Naḥw*), rhetoric (*Balāghah*), 
 
 ```markdown
 > فإن يك بعض الناس سيفا لدولة ... ففي الناس بوقات لها وطبول
-> — **أبو الطيب المتنبي** · **بحر الطويل** · [[ديوان المتنبي](https://www.aldiwan.net/cat-poet-al-mutanabbi)]
+> — **أبو الطيب المتنبي** · **بحر الطويل** · [[ديوان المتنبي](https://adabworld.com/)]
 ```
 
 ---

@@ -104,7 +104,7 @@ Never cite classical texts, verses, or traditions without direct, verifiable web
 
 ### 3.4. Arabic Poetic Shawāhid
 - State the poet, poetic meter (*Bahr*), and reference to [Al-Diwan](https://www.aldiwan.net/) or [AdabWorld](https://adabworld.com/).
-- **Pattern:** `البيت من بحر الطويل، للشاعر المتنبي ([ديوان المتنبي](https://www.aldiwan.net/cat-poet-al-mutanabbi))`
+- **Pattern:** `البيت من بحر الطويل، للشاعر المتنبي ([ديوان المتنبي](https://adabworld.com/))`
 
 ### 3.5. Comparative Philosophy
 - When cross-referencing traditional logic (*Manṭiq*) with modern philosophy, link to the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/).
@@ -206,6 +206,12 @@ Validates all Markdown documents for RTL tag balance, table column consistency, 
 python3 .agents/skills/kanz-al-tahqiq/scripts/validate_markdown_rtl.py
 ```
 
+### 7.3. Citation Integrity & Provenance Verifier (`validate_citations.py`)
+Verifies all external hyperlinks across the repository: validates Shamela book IDs against the canonical catalog, checks Quran.com ayah boundaries, validates Sunnah.com API route formats, and prevents confabulated or broken 404 links.
+```bash
+python3 .agents/skills/kanz-al-tahqiq/scripts/validate_citations.py
+```
+
 ---
 
 ## 8. Pre-Commit Verification Checklist
@@ -215,7 +221,9 @@ Before finalizing any edit, addition, or refactoring in this repository, run thr
 - [ ] **RTL Containers:** Are all Arabic texts wrapped inside `<div dir="rtl" lang="ar">` blocks?
 - [ ] **Tashkīl Preserved:** Has full vocalization been preserved on all Mutūn and poetic verses?
 - [ ] **Citations Verified:** Do all Qur'an, Hadith, Shamela, and poetry citations feature working, authoritative URLs?
+- [ ] **Zero Confabulated IDs:** Are all Shamela book IDs vetted against the canonical catalog?
 - [ ] **Table Pipe Balance:** Do all Markdown tables have identical column pipe counts across headers and rows?
 - [ ] **Mermaid Syntax:** Are all diagram nodes containing Arabic or Malayalam properly escaped in double quotes?
 - [ ] **Ethos & Scholarly Integrity:** Does the work respect the traditional scholarly standards of the Dars institution?
-- [ ] **Automated Linting:** Has `python3 .agents/skills/kanz-al-tahqiq/scripts/validate_markdown_rtl.py` passed with 0 errors?
+- [ ] **Automated Citation Linter:** Has `python3 .agents/skills/kanz-al-tahqiq/scripts/validate_citations.py` passed with 0 errors?
+- [ ] **Automated RTL Linter:** Has `python3 .agents/skills/kanz-al-tahqiq/scripts/validate_markdown_rtl.py` passed with 0 errors?

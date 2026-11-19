@@ -3,7 +3,7 @@
 clean_and_annotate.py - Text Sanitizer and Phonetic Annotator for Kanz Vocal Arts.
 
 Cleans raw Markdown files (removing URLs, bracketed citations, and OCR/markup artifacts),
-fixes known typos, annotates phonetics, detects language boundaries (Arabic, Malayalam, English),
+fixes known typos, annotates phonetics, detects language boundaries (Arabic, Urdu, Malayalam, English),
 and outputs a structured JSON performance script.
 """
 
@@ -14,6 +14,8 @@ from pathlib import Path
 
 # Arabic Unicode range
 ARABIC_PATTERN = re.compile(r'[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]+')
+# Urdu specific characters
+URDU_SPECIFIC_PATTERN = re.compile(r'[ٹڈڑںےہھئےپچژگ]')
 # Malayalam Unicode range
 MALAYALAM_PATTERN = re.compile(r'[\u0D00-\u0D7F]+')
 
@@ -21,7 +23,8 @@ def clean_text(raw_markdown: str) -> str:
     """Removes URLs, markdown links, footnote citations, and known typos."""
     text = raw_markdown
     
-    # Strip HTML wrappers but keep content
+    # Strip HTML wrappers but preserve content; mark urdu if lang="ur"
+    text = re.sub(r'<div[^>]*lang="ur"[^>]*>(.*?)</div>', r'__URDU_START__\1__URDU_END__', text, flags=re.DOTALL)
     text = re.sub(r'<p\s+dir="rtl"\s+lang="ar">(.*?)</p>', r'\1', text, flags=re.DOTALL)
     text = re.sub(r'<div[^>]*>(.*?)</div>', r'\1', text, flags=re.DOTALL)
     text = re.sub(r'<span[^>]*>(.*?)</span>', r'\1', text, flags=re.DOTALL)
@@ -36,6 +39,9 @@ def clean_text(raw_markdown: str) -> str:
     # Strip metadata lines (e.g. *ADSA Mehrajan’26 ... or lines with fest guidelines)
     text = re.sub(r'^\*?\s*ADSA\s+Mehrajan.*$', '', text, flags=re.MULTILINE | re.IGNORECASE)
     text = re.sub(r'^\*+[^\n]*\*+$', '', text, flags=re.MULTILINE)
+    
+    # Remove markdown tables (lines starting and ending with |)
+    text = re.sub(r'^\|.*\|$', '', text, flags=re.MULTILINE)
     
     # Remove citation links with URLs: ([Title](https://...)) or [Title](https://...)
     text = re.sub(r'\(\[[^\]]*\]\(https?://[^\)]+\)\)', '', text)
@@ -55,7 +61,6 @@ def clean_text(raw_markdown: str) -> str:
     text = re.sub(r'\btru beauty\b', 'true beauty', text, flags=re.IGNORECASE)
     
     # Normalize honorifics for spoken delivery
-    # Replace ﷺ with clean spoken clause
     text = text.replace('ﷺ', ', peace and blessings be upon him,')
     text = text.replace('˹O Prophet˺', 'O Prophet,')
     
@@ -69,19 +74,32 @@ def clean_text(raw_markdown: str) -> str:
     return '\n\n'.join(cleaned_lines)
 
 def detect_segment_language(text: str) -> str:
-    """Classifies a text block as 'arabic', 'malayalam', or 'english'."""
+    """Classifies a text block as 'arabic', 'urdu', 'malayalam', or 'english'."""
     stripped = text.strip()
+    
+    if '__URDU_START__' in stripped or URDU_SPECIFIC_PATTERN.search(stripped):
+        return 'urdu'
+        
     ar_chars = len(''.join(ARABIC_PATTERN.findall(stripped)))
     ml_chars = len(''.join(MALAYALAM_PATTERN.findall(stripped)))
     total_chars = max(len(stripped), 1)
     
     if ar_chars / total_chars > 0.35:
+        # Check if contains Urdu specific letters
+        if URDU_SPECIFIC_PATTERN.search(stripped):
+            return 'urdu'
         return 'arabic'
     if ml_chars / total_chars > 0.35:
         return 'malayalam'
     return 'english'
 
-def parse_into_performance_segments(cleaned_text: str, default_english_voice="en-GB-RyanNeural", default_arabic_voice="ar-SA-HamedNeural", default_malayalam_voice="ml-IN-MidhunNeural") -> list:
+def parse_into_performance_segments(
+    cleaned_text: str,
+    default_english_voice="en-GB-RyanNeural",
+    default_arabic_voice="ar-SA-HamedNeural",
+    default_malayalam_voice="ml-IN-MidhunNeural",
+    default_urdu_voice="ur-PK-AsadNeural"
+) -> list:
     """Parses text into discrete, voiced performance segments with timing and pause cues."""
     paragraphs = cleaned_text.split('\n\n')
     segments = []
@@ -91,10 +109,26 @@ def parse_into_performance_segments(cleaned_text: str, default_english_voice="en
         if not para:
             continue
         
-        # Check if pure Arabic
-        lang = detect_segment_language(para)
+        # Check for explicit Urdu marker
+        is_marked_urdu = False
+        if '__URDU_START__' in para:
+            is_marked_urdu = True
+            para = para.replace('__URDU_START__', '').replace('__URDU_END__', '').strip()
+            
+        lang = "urdu" if is_marked_urdu else detect_segment_language(para)
+        
+        if lang == 'urdu':
+            segments.append({
+                "language": "urdu",
+                "voice": default_urdu_voice,
+                "text": para,
+                "rate": "-5%",
+                "pitch": "+0Hz",
+                "pause_after_ms": 750
+            })
+            continue
+            
         if lang == 'arabic':
-            # Is this the Basmalah? Give it an exordium pause
             pause = 1000 if "الرَّحْمَٰنِ الرَّحِيمِ" in para else 800
             segments.append({
                 "language": "arabic",
@@ -130,7 +164,7 @@ def parse_into_performance_segments(cleaned_text: str, default_english_voice="en
             })
             continue
         
-        # Check for embedded Arabic phrases or Malayalam theme
+        # Check for embedded Arabic, Urdu, or Malayalam phrases
         token_pattern = re.compile(r'([\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\s،؛ـ]+|[\u0D00-\u0D7F]+|[^\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\u0D00-\u0D7F]+)')
         parts = token_pattern.findall(para)
         
@@ -140,7 +174,16 @@ def parse_into_performance_segments(cleaned_text: str, default_english_voice="en
                 continue
             
             p_lang = detect_segment_language(p_strip)
-            if p_lang == 'arabic':
+            if p_lang == 'urdu':
+                segments.append({
+                    "language": "urdu",
+                    "voice": default_urdu_voice,
+                    "text": p_strip,
+                    "rate": "-5%",
+                    "pitch": "+0Hz",
+                    "pause_after_ms": 700
+                })
+            elif p_lang == 'arabic':
                 segments.append({
                     "language": "arabic",
                     "voice": default_arabic_voice,
@@ -171,7 +214,6 @@ def parse_into_performance_segments(cleaned_text: str, default_english_voice="en
                     pause = 200
                 
                 p_clean = re.sub(r'\*+', '', p_strip).strip()
-                # Clean leading quotes and punctuation marks
                 p_clean = re.sub(r'^[“"”’‘,\s]+', '', p_clean)
                 p_clean = re.sub(r'[“"”’‘\s]+$', '', p_clean)
                 p_clean = re.sub(r',\s*,+', ',', p_clean)
@@ -195,6 +237,7 @@ def main():
     parser.add_argument("--en-voice", default="en-GB-RyanNeural", help="Default English neural voice")
     parser.add_argument("--ar-voice", default="ar-SA-HamedNeural", help="Default Arabic neural voice")
     parser.add_argument("--ml-voice", default="ml-IN-MidhunNeural", help="Default Malayalam neural voice")
+    parser.add_argument("--ur-voice", default="ur-PK-AsadNeural", help="Default Urdu neural voice")
     
     args = parser.parse_args()
     input_path = Path(args.input_file)
@@ -208,7 +251,8 @@ def main():
         cleaned,
         default_english_voice=args.en_voice,
         default_arabic_voice=args.ar_voice,
-        default_malayalam_voice=args.ml_voice
+        default_malayalam_voice=args.ml_voice,
+        default_urdu_voice=args.ur_voice
     )
     
     output_path = Path(args.output) if args.output else input_path.with_suffix('.performance.json')

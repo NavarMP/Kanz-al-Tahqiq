@@ -52,7 +52,7 @@
 ബദ്‌റും ഹുനൈനും പോലും ആ ദിവ്യസ്നേഹത്തിന്റെ ജ്വാലയായിരുന്നു!  
 ബുദ്ധി ഇപ്പോഴും മട്ടുപ്പാവിന്റെ വക്കിലിരുന്ന് കാഴ്ചകൾ കണ്ടു രസിക്കുകയാണ്;  
 എന്നാൽ ഇശ്ഖോ, പ്രവാചകന്റെ കൽപ്പന കേട്ട മാത്രയിൽ തീയിലേക്ക് എടുത്തുചാടി!*  
-— [Allama Iqbal, *Bal-e-Jibril*, Ghazal 34](https://www.iqbal.com.pk/bal-e-jibril)
+— [Allama Iqbal, *Bal-e-Jibril*, Ghazal 34](https://www.rekhta.org/poets/allama-iqbal)
 
 ---
 
@@ -77,7 +77,7 @@
 എന്നാൽ പടിഞ്ഞാറിന്റെ ഇരുട്ടിൽ അകക്കണ്ണിന്റെ പ്രകാശമാണ് (ബസ്വീറ) അസ്തമിച്ചുപോയത്!  
 ഈ ആധുനിക നാഗരികതയുടെ തിളക്കം നിന്റെ കണ്ണുകളെ അന്ധമാക്കുന്നു;  
 എന്നാൽ ഈ ശിൽപ്പവേല വെറും വ്യാജരത്നങ്ങളുടെ നുറുങ്ങുവെട്ടം മാത്രമാണ്!*  
-— [Allama Iqbal, *Zarb-e-Kaleem*, 'Tehzeeb-e-Hazir'](https://www.iqbal.com.pk/zarb-e-kaleem)
+— [Allama Iqbal, *Zarb-e-Kaleem*, 'Tehzeeb-e-Hazir'](https://www.rekhta.org/poets/allama-iqbal)
 
 ---
 
