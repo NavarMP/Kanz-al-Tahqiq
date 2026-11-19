@@ -1,0 +1,20 @@
+{
+  "title": "Formal Munāḍharah / Debate Configuration",
+  "genre": "debate",
+  "pacing_wpm": 145,
+  "stage_sfx": {
+    "warning_bell_4min": true,
+    "termination_bell_5min": true
+  },
+  "default_voices": {
+    "moderator": "en-GB-RyanNeural",
+    "proponent": "ml-IN-MidhunNeural",
+    "opponent": "en-US-ChristopherNeural"
+  },
+  "mastering": {
+    "target_lufs": -15.5,
+    "true_peak": -1.0,
+    "compression_ratio": "4:1",
+    "reverb_profile": "tight_broadcast"
+  }
+}

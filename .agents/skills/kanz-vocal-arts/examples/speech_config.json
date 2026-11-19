@@ -1,0 +1,16 @@
+{
+  "title": "Spirituality Is Far from Wahhabism",
+  "genre": "speech",
+  "pacing_wpm": 110,
+  "default_voices": {
+    "english": "en-GB-RyanNeural",
+    "arabic": "ar-SA-HamedNeural",
+    "malayalam": "ml-IN-MidhunNeural"
+  },
+  "mastering": {
+    "target_lufs": -16.0,
+    "true_peak": -1.0,
+    "reverb_profile": "sanctuary_hall",
+    "ambient_bed": false
+  }
+}

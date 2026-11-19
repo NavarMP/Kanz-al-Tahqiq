@@ -16,7 +16,7 @@ import re
 import sys
 import argparse
 
-TARGET_DIRS = ["Texts", "Fest", "debate", "speech", "Conversation", "Articles", "Poem", "games"]
+TARGET_DIRS = ["Texts", "Fest", "debate", "speech", "Conversation", "Articles", "Poem", "Song", "games"]
 ARABIC_PATTERN = re.compile(r'[\u0600-\u06FF]')
 
 def count_arabic_chars(text):

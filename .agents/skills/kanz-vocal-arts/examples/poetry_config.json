@@ -1,0 +1,19 @@
+{
+  "title": "Classical Metric Poetry (Shiʿr / Mappila Pāṭṭu)",
+  "genre": "poem",
+  "pacing_wpm": 90,
+  "meter_rules": {
+    "caesura_pause_ms": 600,
+    "bayt_end_pause_ms": 1200
+  },
+  "default_voices": {
+    "arabic_qasidah": "ar-AE-HamdanNeural",
+    "malayalam_kavya": "ml-IN-SobhanaNeural"
+  },
+  "mastering": {
+    "target_lufs": -16.0,
+    "true_peak": -1.0,
+    "ambient_bed": true,
+    "reverb_profile": "cathedral_depth"
+  }
+}
