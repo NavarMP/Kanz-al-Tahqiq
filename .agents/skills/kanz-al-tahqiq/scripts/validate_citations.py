@@ -138,6 +138,47 @@ def validate_citations_in_file(filepath):
 
     return errors, warnings
 
+def validate_docx_file(filepath):
+    errors = []
+    warnings = []
+    try:
+        import docx
+        from docx.opc.constants import RELATIONSHIP_TYPE as RT
+    except ImportError:
+        return errors, warnings
+
+    try:
+        doc = docx.Document(filepath)
+    except Exception as e:
+        return [f"Could not open docx file: {e}"], []
+
+    # Check relationships
+    for r_id, rel in doc.part.rels.items():
+        if rel.reltype == RT.HYPERLINK:
+            url = rel.target_ref
+            if 'shamela.ws/book/' in url:
+                bid_match = re.search(r'shamela\.ws/book/(\d+)', url)
+                if bid_match:
+                    bid = bid_match.group(1)
+                    if bid in SHAMELA_DISALLOWED_IDS:
+                        errors.append(f"Rel {r_id}: Disallowed/confabulated Shamela ID {bid} ({SHAMELA_DISALLOWED_IDS[bid]}) in target {url}")
+                    elif bid not in SHAMELA_CANONICAL_CATALOG and bid != "00000":
+                        warnings.append(f"Rel {r_id}: Uncataloged Shamela ID {bid} in target {url}")
+            if 'sunnah.com/' in url:
+                if 'muslim:introduction' in url:
+                    errors.append(f"Rel {r_id}: Invalid Sunnah route format 'muslim:introduction'.")
+                if 'malik/36/31' in url:
+                    errors.append(f"Rel {r_id}: Non-standard Muwatta path 'malik/36/31'.")
+
+    # Check text inside paragraphs
+    for p_idx, p in enumerate(doc.paragraphs, 1):
+        for match in LINK_PATTERN.finditer(p.text):
+            url = match.group(2).strip()
+            if any(dis in url for dis in ['21715', '21643', 'malik/36/31']):
+                errors.append(f"Para {p_idx}: Disallowed citation URL in text: {url}")
+
+    return errors, warnings
+
 def main():
     parser = argparse.ArgumentParser(description="Kanz al-Taḥqīq Scholarly Citation & Provenance Verifier")
     parser.add_argument("--dir", type=str, default=".", help="Root directory to scan")
@@ -158,12 +199,15 @@ def main():
         if any(ignored in root for ignored in ['.git', '.gemini', 'node_modules', 'brain']):
             continue
         for file in sorted(files):
-            if file.endswith('.md'):
+            if file.endswith('.md') or file.endswith('.docx'):
                 filepath = os.path.join(root, file)
                 relpath = os.path.relpath(filepath, root_dir)
                 total_files += 1
 
-                errors, warnings = validate_citations_in_file(filepath)
+                if file.endswith('.md'):
+                    errors, warnings = validate_citations_in_file(filepath)
+                else:
+                    errors, warnings = validate_docx_file(filepath)
                 if errors or (args.strict and warnings):
                     files_with_errors += 1
                     total_errors += len(errors)
