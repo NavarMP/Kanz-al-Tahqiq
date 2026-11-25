@@ -29,7 +29,7 @@ import edge_tts
 ARABIC_PATTERN = re.compile(r'[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]+')
 
 def generate_procedural_sfx(sfx_type: str, output_path: Path):
-    """Generates procedural sound effects via FFmpeg lavfi filters."""
+    """Generates procedural sound effects via FFmpeg lavfi filters in stereo 48kHz."""
     output_path.parent.mkdir(parents=True, exist_ok=True)
     if sfx_type == "GAVEL":
         cmd = [
@@ -39,6 +39,7 @@ def generate_procedural_sfx(sfx_type: str, output_path: Path):
             "-f", "lavfi", "-i", "anoisesrc=d=0.12:c=pink:r=48000,lowpass=f=800,afade=t=out:st=0.01:d=0.11,volume=4.0",
             "-filter_complex", "[0:a][1:a][2:a]concat=n=3:v=0:a=1[out]",
             "-map", "[out]",
+            "-ac", "2",
             "-ar", "48000", "-c:a", "pcm_s16le",
             str(output_path)
         ]
@@ -46,6 +47,7 @@ def generate_procedural_sfx(sfx_type: str, output_path: Path):
         cmd = [
             "ffmpeg", "-y",
             "-f", "lavfi", "-i", "sine=f=1174.66:d=1.8:r=48000,afade=t=out:st=0.1:d=1.7,volume=0.8",
+            "-ac", "2",
             "-ar", "48000", "-c:a", "pcm_s16le",
             str(output_path)
         ]
@@ -57,6 +59,7 @@ def generate_procedural_sfx(sfx_type: str, output_path: Path):
             "-f", "lavfi", "-i", "sine=f=1318.51:d=1.5:r=48000,afade=t=out:st=0.05:d=1.45,volume=0.8",
             "-filter_complex", "[0:a][1:a][2:a]concat=n=3:v=0:a=1[out]",
             "-map", "[out]",
+            "-ac", "2",
             "-ar", "48000", "-c:a", "pcm_s16le",
             str(output_path)
         ]
@@ -64,6 +67,7 @@ def generate_procedural_sfx(sfx_type: str, output_path: Path):
         cmd = [
             "ffmpeg", "-y",
             "-f", "lavfi", "-i", "anoisesrc=d=3.2:c=pink:r=48000,lowpass=f=1100,afade=t=in:st=0:d=0.5,afade=t=out:st=2.2:d=1.0,volume=1.1",
+            "-ac", "2",
             "-ar", "48000", "-c:a", "pcm_s16le",
             str(output_path)
         ]
@@ -238,9 +242,8 @@ async def process_debate_pipeline(script_path: Path, output_dry_wav: Path, work_
     sfx_cache = {}
     for s_type in ["GAVEL", "BELL_WARN", "BELL_STOP", "APPLAUSE"]:
         sfx_path = sfx_dir / f"{s_type.lower()}.wav"
-        if not sfx_path.exists():
-            print(f"Generating procedural SFX: {s_type}...")
-            generate_procedural_sfx(s_type, sfx_path)
+        print(f"Generating procedural stereo SFX: {s_type}...")
+        generate_procedural_sfx(s_type, sfx_path)
         sfx_cache[s_type] = sfx_path
         
     concat_list = []
@@ -271,8 +274,9 @@ async def process_debate_pipeline(script_path: Path, output_dry_wav: Path, work_
             raw_mp3 = work_dir / f"act_{idx:03d}_raw.mp3"
             panned_wav = work_dir / f"act_{idx:03d}_panned.wav"
             
-            print(f"  [{idx+1}/{len(actions)}] [{speaker}] ({voice}, p={pitch}, r={rate}) {text[:45]}...")
-            await synthesize_chunk(text, voice, rate, pitch, raw_mp3)
+            if not raw_mp3.exists() or raw_mp3.stat().st_size == 0:
+                print(f"  [{idx+1}/{len(actions)}] [{speaker}] ({voice}, p={pitch}, r={rate}) {text[:45]}...")
+                await synthesize_chunk(text, voice, rate, pitch, raw_mp3)
             convert_and_pan(raw_mp3, panned_wav, pan)
             concat_list.append(panned_wav)
             
@@ -293,6 +297,7 @@ async def process_debate_pipeline(script_path: Path, output_dry_wav: Path, work_
         "-safe", "0",
         "-i", str(manifest_path),
         "-c:a", "pcm_s16le",
+        "-ac", "2",
         "-ar", "48000",
         str(output_dry_wav)
     ]
