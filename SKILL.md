@@ -37,8 +37,9 @@ Kanz-al-Tahqiq/
 ├── Texts/                               # Classical scholarly texts & analytical study aids
 │   ├── Fiqh/fath-al-muin/               # Shafi'i jurisprudence: Fatḥ al-Muʿīn (Shamela: 11327)
 │   ├── Mantiq/tasrih-al-mantiq/         # Traditional Islamic logic: Taṣrīḥ al-Manṭiq
-│   ├── Nahw/alfiyyah/                   # Grammar: Alfiyyah Ibn Mālik & Sharḥ al-Makhdūmayn
-│   └── Balagha/                         # Rhetoric: Qawāʿid al-Balāghah & al-Balāghah al-Wāḍiḥah
+│   ├── Nahw/alfiyyah/                   # Grammar: Alfiyyah Ibn Mālik, Sharḥ al-Makhdūmayn & shawahid/
+│   ├── Balagha/                         # Rhetoric: Qawāʿid al-Balāghah, al-Balāghah al-Wāḍiḥah & poems/
+│   └── favorite/                        # Scholarly favorites vault (Āyāt, Aḥādīth, Poems, ʿIbārāt, Scholars, Books)
 ├── Fest/velichathirutt/                 # Alathurpadi Dars Mehrajan-26 Fest manual & magazine
 │   ├── manual.md / manual_ml.md         # 193-item competition regulations & scoring rubrics
 │   └── magazine/                        # 22 thematic chapters of "Kanal / Velichathirutt"

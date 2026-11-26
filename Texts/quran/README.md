@@ -62,3 +62,5 @@ Texts/quran/
 
 - النص القرآني مستخرج وفق معايير رخصة الاستخدام لمشروع [Tanzil Project](https://tanzil.net) (Creative Commons Attribution 3.0).
 - إعداد وبرمجة: كنز التحقيق (Kanz-al-Tahqiq).
+
+</div>
