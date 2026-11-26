@@ -1,0 +1,48 @@
+---
+surah_number: 99
+name_arabic: "الزَّلْزَلَة"
+name_transliterated: "Az-Zalzalah"
+name_english: "The Earthquake"
+classification: "Medinan"
+classification_arabic: "مَدَنِيَّة"
+revelation_order: 93
+total_verses: 8
+juz: [30]
+pages: [599, 599]
+sajdah_verses: []
+---
+
+# سُورَةُ الزَّلْزَلَة
+### Az-Zalzalah — The Earthquake
+
+<div align="center">
+
+**سُورَةُ الزَّلْزَلَة** (Az-Zalzalah - The Earthquake)
+
+**رقم السورة**: 99 | **النوع**: مَدَنِيَّة (Medinan) | **عدد الآيات**: 8 | **ترتيب النزول**: 93 | **الجزء**: 30 | **الصفحة**: 599
+
+[⬅️ السورة السابقة: البَيِّنَة (Al-Bayyinah)](098-al-bayyinah.md) • [📜 فهرس القرآن](../INDEX.md) • [السورة التالية: العَادِيَات (Al-‘Ādiyāt) ➡️](100-al-adiyat.md)
+
+---
+
+</div>
+
+<div align="center">
+
+### بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+
+</div>
+
+<div dir="rtl" lang="ar" style="font-family: 'Amiri', 'KFGQPC Uthmanic Script HAFS', 'Scheherazade New', 'Traditional Arabic', serif; font-size: 1.55rem; line-height: 2.3; text-align: justify;">
+
+إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا ﴿١﴾ وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا ﴿٢﴾ وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا ﴿٣﴾ يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا ﴿٤﴾ بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا ﴿٥﴾ يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَٰلَهُمْ ﴿٦﴾ فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ ﴿٧﴾ وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ ﴿٨﴾
+
+</div>
+
+<div align="center">
+
+---
+
+[⬅️ السورة السابقة: البَيِّنَة](098-al-bayyinah.md) • [📜 فهرس السور](../INDEX.md) • [المصحف الكامل](../Quran-Complete.md#surah-099) • [السورة التالية: العَادِيَات ➡️](100-al-adiyat.md)
+
+</div>
