@@ -22,7 +22,8 @@
 
 Additional observations to resolve during the audit:
 
-- The PDFs are image-based or have very little useful searchable text in sampled pages. `pdftotext` and Tesseract are unavailable in the current environment; `pdftoppm` and Python `pdfplumber` are available. Use OCR only as a draft aid and collate it against rendered page images.
+- The PDFs have a mixed OCR/text layer. `pdfplumber` output is badly reordered or corrupted on content pages, so it is not a reliable transcription source. Arabic OCR through macOS Vision (`ar-SA`) produced a usable draft; it still needs page-image collation for diacritics, tables, and ambiguous words. `pdftotext` and Tesseract are unavailable; rendered page images are available through `pdftoppm`.
+- Initial page mapping shows shared front matter in pages 1–15 of each PDF, then work-specific text. The Ajnās scan contains Ṣughrā on PDF pages 16–32 and Kubrā on 33–63. In the Mīzān scan, the main text and exercises run through page 109; shared rules, glossary, references, and contents follow on 110–125. In the Zanjān scan, the text and exercises run through page 94; shared appendices follow on 95–110. Verify all transitions and duplicate appendices during the coverage audit.
 - The Ajnās READMEs advertise `Notes/Chapters/` and other supporting files that are not present in the current tree. The Kubrā README also advertises an analytics file that is absent. The Zanjān README describes translations and companion files not present in the current tree. Reconcile these descriptions with actual deliverables.
 - Existing Arabic, English, and Malayalam files have different lengths and structures. Translation completeness and commentary must be assessed section by section, not inferred from a title or overview.
 - Authorship, dates, edition details, page ranges, and claims about the number of chapters or patterns in current READMEs must be verified against the scan itself before being retained as facts.
@@ -44,7 +45,7 @@ Creating new full English or Malayalam translations for Mīzān or Zanjān is ou
 
 1. Keep all three PDFs unchanged during the project. Record file names, page counts, and checksums in the source ledger.
 2. Render representative pages from the beginning, middle, and end of each PDF. Note scan quality, page rotation, handwriting or marginalia, tables, and any pages needing special review.
-3. For `ajnas.pdf`, identify the exact beginning and ending of Ṣughrā and Kubrā, including shared preliminaries or appendices. For each other scan, identify the work boundaries and any appendices or exercise sections.
+3. Verify the current boundary map: shared front matter pp. 1–15; Ṣughrā pp. 16–32 and Kubrā pp. 33–63 in `ajnas.pdf`; Mīzān pp. 16–109 plus appendices pp. 110–125; Zanjān pp. 16–94 plus appendices pp. 95–110. Identify which repeated appendix copy is clearest and map shared material to `sarf-auxiliary/` rather than duplicating it in four core texts.
 4. Record source facts only after checking the scan’s title page and publication data. Do not inherit unverified metadata from a README.
 
 **Gate A:** Every PDF page is classified as text, front/back matter, blank/duplicate, or out of scope; Ajnās section boundaries are documented.
