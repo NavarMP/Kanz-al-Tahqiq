@@ -1,4 +1,4 @@
-# بَنْكُ الْأَسْئِلَةِ وَبِطَاقَاتُ التَّذَكُّرِ النَّشِطِ (Active-Recall Study Bank)
+# بَنْكُ الْأَسْئِلَةِ وَبِطَاقَاتُ التَّذَكُّرِ النَّشِطِ (Active-Recall Study Bank)
 ### Tiered Pedagogical Flashcards & Dilemma Evaluations on *Hidāyat al-Adhkiyāʾ*
 
 ---

@@ -7,14 +7,16 @@ import os
 import re
 import json
 
-BASE_DIR = "/Users/apple/Desktop/docs/Kanz-al-Tahqiq/Kanz-al-Tahqiq-pub/Texts/Tasawwuf/Adhkiyah"
+SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(SCRIPTS_DIR)
 CHAPTERS_DIR = os.path.join(BASE_DIR, "chapters")
 STUDY_DIR = os.path.join(BASE_DIR, "study")
 SHARH_DIR = os.path.join(BASE_DIR, "Sharh")
-SCRIPTS_DIR = os.path.join(BASE_DIR, "scripts")
 
 with open(os.path.join(SCRIPTS_DIR, "verses_188.json"), "r", encoding="utf-8") as f:
     verses_raw = json.load(f)
+
+ARABIC_SOURCES = {"opening-transcription", "crosschecked-transcription", "provided-print-scan"}
 
 CHAPTERS = [
     {
@@ -243,31 +245,23 @@ def clean_ml(text):
     t = re.sub(r"\s+", " ", t).strip()
     return t
 
-# Clean arabic words: remove internal spaces inside words
-def fix_ar_words(s):
-    # join single-char spaced letters
-    # Example: 'أَ لْحمدَُْ لَ لِ' -> 'أَلْحَمْدُ لِلَّهِ'
-    # Use standard classical substitutions where known
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
+# Canonical Arabic comes from the explicitly reviewed hemistich fields. The OCR
+# extraction is retained only as provenance and must never be published as text.
+def canonical_arabic(text, verse_num, part):
+    if not isinstance(text, str) or not text.strip():
+        raise ValueError(f"Verse {verse_num} is missing canonical Arabic {part}.")
+    text = re.sub(r"[\u061c\u200e\u200f\u202a-\u202e\u2066-\u2069]", "", text)
+    return re.sub(r"\s+", " ", text).strip()
 
 # Build dataset for all 188 verses
 compiled_verses = []
 
 for i in range(1, 189):
     vr = verses_raw[str(i)]
-    ar_chunks = vr["ar_raw"]
-    
-    # Clean arabic
-    if len(ar_chunks) >= 2:
-        sadr = fix_ar_words(ar_chunks[0])
-        ajuz = fix_ar_words(ar_chunks[1])
-    elif len(ar_chunks) == 1:
-        sadr = fix_ar_words(ar_chunks[0])
-        ajuz = ""
-    else:
-        sadr = ""
-        ajuz = ""
+    sadr = canonical_arabic(vr.get("ar_sadr"), i, "sadr")
+    ajuz = canonical_arabic(vr.get("ar_ajuz"), i, "ajuz")
+    if vr.get("ar_source") not in ARABIC_SOURCES:
+        raise ValueError(f"Verse {i} is missing a recognized Arabic source label.")
     
     ml_cleaned = clean_ml(vr["ml_raw"])
     
@@ -287,7 +281,7 @@ arabic_md_lines = [
     "# هِدَايَةُ الْأَذْكِيَاءِ إِلَى طَرِيقِ الْأَوْلِيَاءِ",
     "### نَظْمُ الشَّيْخِ زَيْنِ الدِّينِ بْنِ عَلِيٍّ الْمَعْبَرِيِّ الْمَلِيبَارِيِّ الْفَنَّانِيِّ (ت 928 هـ)\n",
     "> **الْفَنُّ:** عِلْمُ التَّصَوُّفِ وَالسُّلُوكِ وَالرَّقَائِقِ | **الْبَحْرُ الشِّعْرِيُّ:** بَحْرُ الْبَسِيطِ (مُسْتَفْعِلُنْ فَاعِلُنْ مُسْتَفْعِلُنْ فَعِلُنْ) | **عَدَدُ الْأَبْيَاتِ:** 188 بَيْتًا  ",
-    "> **التَّوْثِيقُ:** نُسْخَةٌ مُحَقَّقَةٌ مُطَابِقَةٌ لِشَرْحَيْ «كِفَايَةِ الْأَتْقِيَاءِ» لِلسَّيِّدِ بَكْرِي شَطَا وَ«سَلَالِمِ الْفُضَلَاءِ» لِلشَّيْخِ نَوَوِيٍّ الْبَنْتَانِيِّ.\n",
+    "> **التَّوْثِيقُ:** ضُبِطَ النَّصُّ عَلَى وَفْقِ النُّسْخَةِ الْمَطْبُوعَةِ الْمُرْفَقَةِ، وَرُوجِعَتْ قِرَاءَاتٌ مِنْ نُسَخٍ رَقْمِيَّةٍ مُتَاحَةٍ.\n",
     "---\n",
     "## فِهْرِسُ الْأَبْوَابِ وَالْمَقَامَاتِ\n"
 ]
@@ -305,7 +299,7 @@ for ch in CHAPTERS:
     
     for v_num in range(ch["range"][0], ch["range"][1] + 1):
         v = compiled_verses[v_num - 1]
-        arabic_md_lines.append(f"> **{v['num']}.** {v['sadr']} — {v['ajuz']}\n")
+        arabic_md_lines.append(f"> **{v['num']}.** <span dir=\"rtl\" lang=\"ar\">{v['sadr']}</span> — <span dir=\"rtl\" lang=\"ar\">{v['ajuz']}</span>\n")
     
     arabic_md_lines.append("<p align=\"left\"><a href=\"#فهرس-الأبواب-والمقامات\">⬆ الْعَوْدَةُ إِلَى فِهْرِسِ الْمُحْتَوَيَاتِ</a></p>\n")
     arabic_md_lines.append("---\n")
@@ -345,7 +339,7 @@ for ch in CHAPTERS:
     for v_num in range(ch["range"][0], ch["range"][1] + 1):
         v = compiled_verses[v_num - 1]
         ml_md_lines.append(f"### ബൈത്ത് {v['num']}\n")
-        ml_md_lines.append(f"> <span dir=\"rtl\" lang=\"ar\">**{v['num']}.** {v['sadr']} — {v['ajuz']}</span>\n")
+        ml_md_lines.append(f"> **{v['num']}.** <span dir=\"rtl\" lang=\"ar\">{v['sadr']}</span> — <span dir=\"rtl\" lang=\"ar\">{v['ajuz']}</span>\n")
         ml_md_lines.append(f"* **മലയാള തർജ്ജമ (Sentence Meaning):**  \n  {v['ml']}\n")
         ml_md_lines.append(f"* **വ്യാകരണ വിശകലനം (Grammatical Breakdown):**  \n  «{v['sadr'].split()[0] if v['sadr'] else 'الكلمة'}»: വ്യാകരണപരമായി വാക്യഘടനയിലെ സ്ഥാനം വ്യക്തമാക്കുന്ന പ്രയോഗം. അവസാനത്തിലെ പ്രാസം ബഹ്‌റുൽ ബസീത്വിലെ 'അലിഫുൽ ഇത്വ്‌ലാഖ്' (ألف الإطلاق) നിയമപ്രകാരം ലാം മഫ്തൂഹയായി സ്ഥിരപ്പെടുന്നു.\n")
         ml_md_lines.append(f"* **ദാരിസീ ഫവാഇദും ലത്വാഇഫും (Dars Insights & Ṣūfī Laṭāʾif):**  \n  ഈ വരിയിൽ പ്രതിപാദിക്കുന്ന ആത്മീയ പദവി സാലിക്കുകൾക്ക് അത്യന്താപേക്ഷിതമാണെന്ന് സയ്യിദ് ബക്രി ശത്വാ 'കിഫായത്തുൽ അത്ഖിയാഇൽ' വ്യക്തമാക്കുന്നു. ബാഹ്യമായ ശരീഅത്ത് അനുഷ്ഠാനങ്ങൾ ആന്തരിക ശുദ്ധീകരണത്തിനുള്ള താക്കോലാണെന്ന് ഇതിലൂടെ ഗ്രന്ഥകാരൻ സ്ഥാപിക്കുന്നു.\n")
@@ -384,7 +378,7 @@ for idx, ch in enumerate(CHAPTERS):
     
     for v_num in range(ch["range"][0], ch["range"][1] + 1):
         v = compiled_verses[v_num - 1]
-        ch_lines.append(f"> **{v['num']}.** {v['sadr']} — {v['ajuz']}\n")
+        ch_lines.append(f"> **{v['num']}.** <span dir=\"rtl\" lang=\"ar\">{v['sadr']}</span> — <span dir=\"rtl\" lang=\"ar\">{v['ajuz']}</span>\n")
     
     ch_lines.append("---\n")
     ch_lines.append("## ٣. മലയാള പഠനവും ദാരിസീ വ്യാഖ്യാനവും (Malayalam Dars Study)\n")
@@ -392,7 +386,7 @@ for idx, ch in enumerate(CHAPTERS):
     for v_num in range(ch["range"][0], ch["range"][1] + 1):
         v = compiled_verses[v_num - 1]
         ch_lines.append(f"### ബൈത്ത് {v['num']}")
-        ch_lines.append(f"> **{v['num']}.** {v['sadr']} — {v['ajuz']}\n")
+        ch_lines.append(f"> **{v['num']}.** <span dir=\"rtl\" lang=\"ar\">{v['sadr']}</span> — <span dir=\"rtl\" lang=\"ar\">{v['ajuz']}</span>\n")
         ch_lines.append(f"* **മലയാള തർജ്ജമ:** {v['ml']}")
         ch_lines.append(f"* **ദാരിസീ നിരീക്ഷണം:** ഈ ബൈത്തിലൂടെ സാലിക്കിന്റെ ഹൃദയ സംസ്കരണത്തിനുള്ള അടിസ്ഥാന നിയമം ഗ്രന്ഥകാരൻ സമർത്ഥിക്കുന്നു.\n")
     
@@ -608,15 +602,21 @@ readme_content = f"""# هِدَايَةُ الْأَذْكِيَاءِ إِلَ�
 
 ## Digital Editions in this Library
 
-1. 📜 **[hidayat-al-adhkiya.md](hidayat-al-adhkiya.md):** Complete Classical Arabic Matn vocalized with 100% *Tashkīl al-Tāmm* in RTL format.
+1. 📜 **[hidayat-al-adhkiya.md](hidayat-al-adhkiya.md):** Arabic matn in RTL format, transcribed into separate hemistich fields and checked against the attached print scan.
 2. 📖 **[hidayat-al-adhkiya-ml.md](hidayat-al-adhkiya-ml.md):** Comprehensive Malayalam Dars Study Edition featuring sentence meaning (*Tarjamah*), grammar (*Tarkīb*), and spiritual reflections (*Laṭāʾif*).
 3. 📚 **[chapters/](chapters/):** 14 modular thematic chapters with deep navigation and cross-references.
-4. 🗂️ **[INDEX.md](INDEX.md):** Master 188-verse concordancer, scansion table, and thematic matrix.
+4. 🗂️ **[INDEX.md](INDEX.md):** Master 188-verse concordance and thematic index.
 5. 🎓 **[study/](study/):**
    - [Trilingual Lexicon](study/trilingual-lexicon.md): 5-column glossary (Arabic, Transliteration, English, Malayalam, Usage).
    - [Active-Recall Study Bank](study/active-recall-study-bank.md): 3-Tier flashcards and dilemma grading rubrics.
    - [Concept Trees](study/concept-trees.md): Mermaid diagrams mapping Suluk and the Shari'ah-Tariqah-Haqiqah paradigm.
 6. 🏛️ **[Sharh/](Sharh/):** Exegetical documentation on *Kifāyat al-Atqiyāʾ* and *Salālim al-Fuḍalāʾ*.
+
+## Arabic Text and Rendering
+
+The supplied print scan is the controlling source. `scripts/verses_188.json` stores the publishable Arabic in `ar_sadr` and `ar_ajuz`; the original OCR fragments remain in `ar_raw` for provenance only. Entries also record whether the reading was transcribed from the supplied scan or cross-checked against a digital transcription. Digital witnesses may differ in wording or vocalization, so unresolved variants should be reviewed against the print scan before scholarly citation. Each hemistich is rendered in its own Arabic right-to-left span to keep punctuation and mixed-script text from reordering it.
+
+Digital cross-checks: [Hafiz Ilyas Saquafi (opening verses)](https://www.ilyassaquafi.in/2019/08/blog-post_20.html) and [Imajiner Nuswantoro (digital transcription)](https://syehhakediri.blogspot.com/2023/01/hidayatul-adzkiya-terjemah-kitab.html).
 
 ---
 
@@ -660,7 +660,7 @@ for v in compiled_verses:
             ch = c
             break
     ch_name = ch["title_ar"].split("(")[0].strip() if ch else "المقدمة"
-    index_content += f"| {v['num']} | {v['sadr']} | {v['ajuz']} | {ch_name} | البسيط |\n"
+    index_content += f"| {v['num']} | <span dir=\"rtl\" lang=\"ar\">{v['sadr']}</span> | <span dir=\"rtl\" lang=\"ar\">{v['ajuz']}</span> | {ch_name} | البسيط |\n"
 
 with open(os.path.join(BASE_DIR, "INDEX.md"), "w", encoding="utf-8") as f:
     f.write(index_content)
@@ -680,7 +680,7 @@ def verify_adhkiyah():
     print("Verifying 188 couplets of Hidayat al-Adhkiya on Bahr al-Basit...")
     print("Meter: مُسْتَفْعِلُنْ فَاعِلُنْ مُسْتَفْعِلُنْ فَعِلُنْ (× 2)")
     print("Rhyme: اللام المطلقة بالألف (-lā)")
-    print("STATUS: 188/188 verses conform to the classical Basit canon.")
+    print("STATUS: Automated scansion is not implemented; meter requires editorial review.")
 
 if __name__ == "__main__":
     verify_adhkiyah()

@@ -17,6 +17,6 @@ Leading Shafi'i scholars composed major commentaries on it:
 - **Author:** Shaykh Muḥammad Nawawī al-Bantanī al-Jāwī (d. 1316 AH), the illustrious Indonesian scholar who taught in Mecca.
 - **Focus:** Extensive biographical notices of early Sufi masters, rigorous hadith citations, and psychological analysis of the diseases of the heart.
 
-### 3. «إِرْشَادُ الْأَلِبَّاءِ إِلَى هِدَايَةِ الْأَذْكِيَاءِ»
+### 3. «إِرْشَادُ الْأَلِبَّاءِ إِلَى هِدَايَةِ الْأَذْكِيَاءِ»
 - **Author:** Shaykh ʿAbd al-ʿAzīz ibn Zayn al-Dīn al-Malībārī (d. 994 AH), son of the author and uncle of the author of *Fatḥ al-Muʿīn*.
 - **Significance:** Authoritative familial commentary explaining the direct pedagogical intent of the original composer.
