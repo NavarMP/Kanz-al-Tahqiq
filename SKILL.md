@@ -49,7 +49,9 @@ Kanz-al-Tahqiq/
 │   ├── Malayalam/                       # Dars & public conference speeches
 │   └── English/                         # Comparative theology & spirituality lectures
 ├── Conversation/Arabic/                 # Modern political & scholastic dialogues (Ḥiwār)
-├── Articles/Malayalam/                  # Published essays in periodicals (e.g. Darshanam)
+├── Articles/                            # Published essays in periodicals
+│   ├── English/                         # English essays (e.g. Insight Magazine)
+│   └── Malayalam/                       # Vernacular essays (e.g. Darshanam, Al-Asr)
 ├── Poem/Malayalam/                      # Contemporary vernacular poetry (e.g. AI Kaalam)
 └── .agents/skills/kanz-al-tahqiq/       # Workspace skill, automation scripts, and reference guides
 ```

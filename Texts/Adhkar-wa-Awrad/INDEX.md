@@ -10,7 +10,7 @@
 ## 📊 ملخص الإحصاءات العامة للمكتبة
 - **إجمالي الأبواب والأقسام الرئيسية:** 9 أبواب رئيسية.
 - **إجمالي ملفات التحقيق:** 30 ملفاً توثيقياً.
-- **إجمالي الأوراد والأدعية المحققة:** 127 ذكراً وورداً ودعاءً مضبوطاً بالشكل التام.
+- **إجمالي الأوراد والأدعية المحققة:** 131 ذكراً وورداً ودعاءً مضبوطاً بالشكل التام.
 
 ---
 
@@ -86,8 +86,8 @@
 <tr>
   <td style="text-align: center;"><b>09</b></td>
   <td><code>03-Ahzab-al-Aimmah</code></td>
-  <td><a href="03-Ahzab-al-Aimmah/01-hizb-al-bahr-shadhili.md"><b>🌊 حِزْبُ البَحْرِ لِلإِمَامِ أَبِي الحَسَنِ الشَّاذِلِيِّ</b></a><br/><small>Ḥizb al-Baḥr · مَنَارُ السَّلَامَةِ وَحِرْزُ العِنَايَةِ</small></td>
-  <td style="text-align: center;">3</td>
+  <td><a href="03-Ahzab-al-Aimmah/01-hizb-al-bahr-shadhili.md"><b>🌊 حِزْبُ البَحْرِ الشَّرِيفُ لِسَيِّدِي أَبِي الحَسَنِ الشَّاذِلِيِّ</b></a><br/><small>Ḥizb al-Baḥr · النَّصُّ الكَامِلُ المُحَقَّقُ عَنِ الأَصْلِ المُصَوَّرِ (PDF)</small></td>
+  <td style="text-align: center;">7</td>
   <td style="text-align: center;"><a href="03-Ahzab-al-Aimmah/01-hizb-al-bahr-shadhili.md">📖 مطالعة</a></td>
 </tr>
 <tr>
