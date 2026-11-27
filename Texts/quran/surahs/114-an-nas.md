@@ -21,7 +21,7 @@ sajdah_verses: []
 
 **رقم السورة**: 114 | **النوع**: مَكِّيَّة (Meccan) | **عدد الآيات**: 6 | **ترتيب النزول**: 21 | **الجزء**: 30 | **الصفحة**: 604
 
-[⬅️ السورة السابقة: الفَلَق (Al-Falaq)](113-al-falaq.md) • [📜 فهرس القرآن](../INDEX.md) • [السورة التالية: الفَاتِحَة (Al-Fātiḥah) ➡️](001-al-fatihah.md)
+[⬅️ السورة السابقة: الفَلَق (Al-Falaq)](113-al-falaq.md) • [📜 فهرس السور](../INDEX.md) • [📖 فهرس الصفحات](../PAGES.md) • [السورة التالية: الفَاتِحَة (Al-Fātiḥah) ➡️](001-al-fatihah.md)
 
 ---
 
@@ -33,16 +33,24 @@ sajdah_verses: []
 
 </div>
 
+<a id="page-604"></a>
+<div align="center">
+
+<sub>─── 📖 صفحة ٦٠٤ (604) ───</sub>
+
+</div>
+
 <div dir="rtl" lang="ar" style="font-family: 'Amiri', 'KFGQPC Uthmanic Script HAFS', 'Scheherazade New', 'Traditional Arabic', serif; font-size: 1.55rem; line-height: 2.3; text-align: justify;">
 
 قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ ﴿١﴾ مَلِكِ ٱلنَّاسِ ﴿٢﴾ إِلَٰهِ ٱلنَّاسِ ﴿٣﴾ مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ ﴿٤﴾ ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ ﴿٥﴾ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ ﴿٦﴾
 
 </div>
 
+
 <div align="center">
 
 ---
 
-[⬅️ السورة السابقة: الفَلَق](113-al-falaq.md) • [📜 فهرس السور](../INDEX.md) • [المصحف الكامل](../Quran-Complete.md#surah-114) • [السورة التالية: الفَاتِحَة ➡️](001-al-fatihah.md)
+[⬅️ السورة السابقة: الفَلَق](113-al-falaq.md) • [📜 فهرس السور](../INDEX.md) • [📖 فهرس الصفحات (604)](../PAGES.md) • [المصحف الكامل](../Quran-Complete.md#surah-114) • [السورة التالية: الفَاتِحَة ➡️](001-al-fatihah.md)
 
 </div>

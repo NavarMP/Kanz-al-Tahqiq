@@ -21,7 +21,7 @@ sajdah_verses: []
 
 **رقم السورة**: 107 | **النوع**: مَكِّيَّة (Meccan) | **عدد الآيات**: 7 | **ترتيب النزول**: 17 | **الجزء**: 30 | **الصفحة**: 602
 
-[⬅️ السورة السابقة: قُرَيْش (Quraysh)](106-quraysh.md) • [📜 فهرس القرآن](../INDEX.md) • [السورة التالية: الكَوْثَر (Al-Kawthar) ➡️](108-al-kawthar.md)
+[⬅️ السورة السابقة: قُرَيْش (Quraysh)](106-quraysh.md) • [📜 فهرس السور](../INDEX.md) • [📖 فهرس الصفحات](../PAGES.md) • [السورة التالية: الكَوْثَر (Al-Kawthar) ➡️](108-al-kawthar.md)
 
 ---
 
@@ -33,16 +33,24 @@ sajdah_verses: []
 
 </div>
 
+<a id="page-602"></a>
+<div align="center">
+
+<sub>─── 📖 صفحة ٦٠٢ (602) ───</sub>
+
+</div>
+
 <div dir="rtl" lang="ar" style="font-family: 'Amiri', 'KFGQPC Uthmanic Script HAFS', 'Scheherazade New', 'Traditional Arabic', serif; font-size: 1.55rem; line-height: 2.3; text-align: justify;">
 
 أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ ﴿١﴾ فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ ﴿٢﴾ وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ ﴿٣﴾ فَوَيْلٌ لِّلْمُصَلِّينَ ﴿٤﴾ ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ ﴿٥﴾ ٱلَّذِينَ هُمْ يُرَآءُونَ ﴿٦﴾ وَيَمْنَعُونَ ٱلْمَاعُونَ ﴿٧﴾
 
 </div>
 
+
 <div align="center">
 
 ---
 
-[⬅️ السورة السابقة: قُرَيْش](106-quraysh.md) • [📜 فهرس السور](../INDEX.md) • [المصحف الكامل](../Quran-Complete.md#surah-107) • [السورة التالية: الكَوْثَر ➡️](108-al-kawthar.md)
+[⬅️ السورة السابقة: قُرَيْش](106-quraysh.md) • [📜 فهرس السور](../INDEX.md) • [📖 فهرس الصفحات (604)](../PAGES.md) • [المصحف الكامل](../Quran-Complete.md#surah-107) • [السورة التالية: الكَوْثَر ➡️](108-al-kawthar.md)
 
 </div>

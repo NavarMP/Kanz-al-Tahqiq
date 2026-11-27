@@ -19,6 +19,7 @@
 | **النحو والصرف** | [شرح الألفية للمخدومين](Nahw/alfiyyah/Sharh/Sharh-alfiyyah-by-makhdumayn.md) | زين الدين الكبير وعبد العزيز المخدومي | [شواهد الشرح الكاملة](Nahw/alfiyyah/Sharh/shawahid-sharh-al-makhdumayn.md) · [متن الألفية](Nahw/alfiyyah/alfiyyah-ibn-malik.md) | [📖 النحو](Nahw/alfiyyah/Sharh/chapters/README.md) |
 | **البلاغة العربية** | [البلاغة الواضحة](Balagha/Balaghat-al-wadhihah/balagha-al-wadhihah.md) | علي الجارم ومصطفى أمين | [موسوعة شواهد البلاغة (680 مقطوعة)](Balagha/Balaghat-al-wadhihah/poems/README.md) · [قواعد البلاغة](Balagha/qawaid-al-balagha/qawaid-al-balagha.md) | [📖 البلاغة](Balagha/Balaghat-al-wadhihah/balagha-al-wadhihah.md) |
 | **المفضلات والفرائد** | [روضة الفرائد وزهرة الفوائد](favorite/README.md) | ذخائر الكنز المختارة | [الآيات](favorite/01_ayat.md) · [الأحاديث](favorite/02_hadith.md) · [الأشعار](favorite/03_poems.md) · [العبارات](favorite/04_ibarat.md) · [العلماء](favorite/05_scholars.md) · [الكتب](favorite/06_books.md) | [🌸 الروضة](favorite/README.md) |
+| **الأذكار والأوراد** | [خزانة الأذكار والأوراد والأدعية](Adhkar-wa-Awrad/README.md) | كبار أئمة الحديث والسلوك | [الفهرس العام](Adhkar-wa-Awrad/INDEX.md) · [الرواتب المسندة](Adhkar-wa-Awrad/02-Canonical-Ratibs/README.md) · [أحزاب الأئمة](Adhkar-wa-Awrad/03-Ahzab-al-Aimmah/README.md) | [📿 الأذكار](Adhkar-wa-Awrad/README.md) |
 
 ---
 

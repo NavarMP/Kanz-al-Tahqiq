@@ -21,7 +21,7 @@ sajdah_verses: []
 
 **رقم السورة**: 103 | **النوع**: مَكِّيَّة (Meccan) | **عدد الآيات**: 3 | **ترتيب النزول**: 13 | **الجزء**: 30 | **الصفحة**: 601
 
-[⬅️ السورة السابقة: التَّكَاثُر (At-Takāthur)](102-at-takathur.md) • [📜 فهرس القرآن](../INDEX.md) • [السورة التالية: الهُمَزَة (Al-Humazah) ➡️](104-al-humazah.md)
+[⬅️ السورة السابقة: التَّكَاثُر (At-Takāthur)](102-at-takathur.md) • [📜 فهرس السور](../INDEX.md) • [📖 فهرس الصفحات](../PAGES.md) • [السورة التالية: الهُمَزَة (Al-Humazah) ➡️](104-al-humazah.md)
 
 ---
 
@@ -33,16 +33,24 @@ sajdah_verses: []
 
 </div>
 
+<a id="page-601"></a>
+<div align="center">
+
+<sub>─── 📖 صفحة ٦٠١ (601) ───</sub>
+
+</div>
+
 <div dir="rtl" lang="ar" style="font-family: 'Amiri', 'KFGQPC Uthmanic Script HAFS', 'Scheherazade New', 'Traditional Arabic', serif; font-size: 1.55rem; line-height: 2.3; text-align: justify;">
 
 وَٱلْعَصْرِ ﴿١﴾ إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ ﴿٢﴾ إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ ﴿٣﴾
 
 </div>
 
+
 <div align="center">
 
 ---
 
-[⬅️ السورة السابقة: التَّكَاثُر](102-at-takathur.md) • [📜 فهرس السور](../INDEX.md) • [المصحف الكامل](../Quran-Complete.md#surah-103) • [السورة التالية: الهُمَزَة ➡️](104-al-humazah.md)
+[⬅️ السورة السابقة: التَّكَاثُر](102-at-takathur.md) • [📜 فهرس السور](../INDEX.md) • [📖 فهرس الصفحات (604)](../PAGES.md) • [المصحف الكامل](../Quran-Complete.md#surah-103) • [السورة التالية: الهُمَزَة ➡️](104-al-humazah.md)
 
 </div>

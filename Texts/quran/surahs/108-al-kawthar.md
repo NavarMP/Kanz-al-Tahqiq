@@ -21,7 +21,7 @@ sajdah_verses: []
 
 **رقم السورة**: 108 | **النوع**: مَكِّيَّة (Meccan) | **عدد الآيات**: 3 | **ترتيب النزول**: 15 | **الجزء**: 30 | **الصفحة**: 602
 
-[⬅️ السورة السابقة: المَاعُون (Al-Mā‘ūn)](107-al-maun.md) • [📜 فهرس القرآن](../INDEX.md) • [السورة التالية: الكَافِرُون (Al-Kāfirūn) ➡️](109-al-kafirun.md)
+[⬅️ السورة السابقة: المَاعُون (Al-Mā‘ūn)](107-al-maun.md) • [📜 فهرس السور](../INDEX.md) • [📖 فهرس الصفحات](../PAGES.md) • [السورة التالية: الكَافِرُون (Al-Kāfirūn) ➡️](109-al-kafirun.md)
 
 ---
 
@@ -33,16 +33,24 @@ sajdah_verses: []
 
 </div>
 
+<a id="page-602"></a>
+<div align="center">
+
+<sub>─── 📖 صفحة ٦٠٢ (602) ───</sub>
+
+</div>
+
 <div dir="rtl" lang="ar" style="font-family: 'Amiri', 'KFGQPC Uthmanic Script HAFS', 'Scheherazade New', 'Traditional Arabic', serif; font-size: 1.55rem; line-height: 2.3; text-align: justify;">
 
 إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ ﴿١﴾ فَصَلِّ لِرَبِّكَ وَٱنْحَرْ ﴿٢﴾ إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ ﴿٣﴾
 
 </div>
 
+
 <div align="center">
 
 ---
 
-[⬅️ السورة السابقة: المَاعُون](107-al-maun.md) • [📜 فهرس السور](../INDEX.md) • [المصحف الكامل](../Quran-Complete.md#surah-108) • [السورة التالية: الكَافِرُون ➡️](109-al-kafirun.md)
+[⬅️ السورة السابقة: المَاعُون](107-al-maun.md) • [📜 فهرس السور](../INDEX.md) • [📖 فهرس الصفحات (604)](../PAGES.md) • [المصحف الكامل](../Quran-Complete.md#surah-108) • [السورة التالية: الكَافِرُون ➡️](109-al-kafirun.md)
 
 </div>
