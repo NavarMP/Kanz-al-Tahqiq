@@ -54,10 +54,11 @@ TARGET_DIRS = ["Texts", "Fest", "debate", "speech", "Conversation", "Articles", 
 
 
 def is_latin_combining(ch):
-    """Check if character is a combining diacritic outside the Arabic unicode blocks."""
+    """Check if character is a combining diacritic outside Arabic and Malayalam blocks."""
     code = ord(ch)
     # Arabic blocks: 0x0600-0x06FF, 0x0750-0x077F, 0x08A0-0x08FF
-    if (0x0600 <= code <= 0x06FF) or (0x0750 <= code <= 0x077F) or (0x08A0 <= code <= 0x08FF):
+    # Malayalam block: 0x0D00-0x0D7F
+    if (0x0600 <= code <= 0x06FF) or (0x0750 <= code <= 0x077F) or (0x08A0 <= code <= 0x08FF) or (0x0D00 <= code <= 0x0D7F):
         return False
     return unicodedata.combining(ch) > 0
 
