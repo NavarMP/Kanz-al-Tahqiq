@@ -84,6 +84,7 @@ The repository currently contains **24 Markdown documents** across **three study
 | **Articles — Malayalam** | [ഹദീസിലെ ശൈഖാനി](Articles/Malayalam/hadithile-sheikhani.md), [അല്ലാഹു മൊറാലിറ്റിക്കെതിരോ?](Articles/Malayalam/allahu-moralitykkethiro.md), [റിവേഴ്സ് ഗിയറിൽ ഓടുന്ന so-called ‘പുരോഗമനം’](Articles/Malayalam/reverse-gear-progress.md), [ലോകകപ്പ്: ബഹിഷ്കരിക്കേണ്ടവർ തോളിലേറ്റുന്നു](Articles/Malayalam/world-cup-boycott.md), and [ഖദീജ ബീവി (റ): ലോക കാരുണ്യരുടെ പാതി](Articles/Malayalam/khadija-beevi.md) | Essays published in *Darshanam Magazine* and *Al-Asr* (Alathurpadi Dars Students Association). |
 | **Speeches and essays** | [Spirituality Is Far from Wahhabism — English](speeches/English/spirituality-wahhabism.md), [group version](speeches/English/spirituality-wahabism-group.md), [AI-assisted draft](speeches/English/spirituality-wahhabism-chatgpt.md), [Sufism Is Love — Malayalam](speeches/Malayalam/sufism-is-love.md), [opening address](speeches/Malayalam/opening-speech-soul-pain-and-light.md), [Man is Not a Political Animal but a Spiritual One](speeches/Malayalam/manushyan-rashtreeya-jeeviyalla-aathmeeya-jeeviyanu.md), [Da'wah: Medium and Message](speeches/Malayalam/dawah-medium-and-message.md), [Nature and Spiritual Responsibility](speeches/Malayalam/prakrithi-duranthangalum-aatmeeya-bodhyavum.md), and [Tawbah Naṣūḥah — Arabic speech with Malayalam meanings](speeches/Arabic/tawbah-nasuhah.md) | Public-speaking and reflective material on spirituality, *taṣawwuf*, da'wah, and religious life. Citations appear in the individual pieces. |
 | **Debate (*Munāḍharah*)** | [Arabic — AI: Blessing or Threat? (FOR Team)](debate/arabic/MASTER-PACK.md) and [Malayalam — AI: Existential Threat (AGAINST Team)](debate/malayalam/MASTER-PACK.md) | Scholastic Munāḍharah packs: timed stage scripts, logical syllogisms, cross-examination question banks, rebuttal matrices, and verified evidence. |
+| **Editorial & AI Standards** | [Master Prompt Engineering Playbook](PROMPT_MASTER_SHEET.md), [Transliteration Master Sheet](TRANSLITERATION_MASTER_SHEET.md), and [DOCX Multilingual Compiler](scripts/markdown_to_docx.py) | 15 production-grade prompt templates and the complete, standardized Arabic-English transliteration matrix (ALA-LC compatible, Unicode 15.0 NFC) for digital humanities publishing. |
 
 ### A study path
 
@@ -241,6 +242,8 @@ The repository history currently credits the project to this maintainer. Additio
 - [Read the study texts](Texts/)
 - [Read the articles](Articles/)
 - [Read the speeches](speeches/)
+- [Master Prompt Engineering Playbook](PROMPT_MASTER_SHEET.md)
+- [Arabic-English Transliteration Master Sheet](TRANSLITERATION_MASTER_SHEET.md)
 - [Open an issue or suggest a source](https://github.com/NavarMP/Kanz-al-Tahqiq/issues/new)
 - [View pull requests](https://github.com/NavarMP/Kanz-al-Tahqiq/pulls)
 - [Project maintainer: Muḥammed Navār](https://github.com/NavarMP)

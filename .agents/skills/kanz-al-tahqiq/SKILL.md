@@ -37,8 +37,9 @@ Kanz-al-Tahqiq/
 ├── Texts/                               # Classical scholarly texts & analytical study aids
 │   ├── Fiqh/fath-al-muin/               # Shafi'i jurisprudence: Fatḥ al-Muʿīn (Shamela: 11327)
 │   ├── Mantiq/tasrih-al-mantiq/         # Traditional Islamic logic: Taṣrīḥ al-Manṭiq
-│   ├── Nahw/alfiyyah/                   # Grammar: Alfiyyah Ibn Mālik & Sharḥ al-Makhdūmayn
-│   └── Balagha/                         # Rhetoric: Qawāʿid al-Balāghah & al-Balāghah al-Wāḍiḥah
+│   ├── Nahw/alfiyyah/                   # Grammar: Alfiyyah Ibn Mālik, Sharḥ al-Makhdūmayn & shawahid/
+│   ├── Balagha/                         # Rhetoric: Qawāʿid al-Balāghah, al-Balāghah al-Wāḍiḥah & poems/
+│   └── favorite/                        # Scholarly favorites vault (Āyāt, Aḥādīth, Poems, ʿIbārāt, Scholars, Books)
 ├── Fest/velichathirutt/                 # Alathurpadi Dars Mehrajan-26 Fest manual & magazine
 │   ├── manual.md / manual_ml.md         # 193-item competition regulations & scoring rubrics
 │   └── magazine/                        # 22 thematic chapters of "Kanal / Velichathirutt"
@@ -48,7 +49,9 @@ Kanz-al-Tahqiq/
 │   ├── Malayalam/                       # Dars & public conference speeches
 │   └── English/                         # Comparative theology & spirituality lectures
 ├── Conversation/Arabic/                 # Modern political & scholastic dialogues (Ḥiwār)
-├── Articles/Malayalam/                  # Published essays in periodicals (e.g. Darshanam)
+├── Articles/                            # Published essays in periodicals
+│   ├── English/                         # English essays (e.g. Insight Magazine)
+│   └── Malayalam/                       # Vernacular essays (e.g. Darshanam, Al-Asr)
 ├── Poem/Malayalam/                      # Contemporary vernacular poetry (e.g. AI Kaalam)
 └── .agents/skills/kanz-al-tahqiq/       # Workspace skill, automation scripts, and reference guides
 ```
@@ -59,6 +62,8 @@ Kanz-al-Tahqiq/
 - **Drafting a Fest Speech:** Write in `speech/<Language>/`, incorporating vocal modulation cues and verified Quran/Hadith citations (Section 6).
 - **Preparing a Debate Script:** Write in `debate/malayalam/` using the 6-stage Munāḍharah master structure.
 - **Verifying Verses / Poetic Meters:** Use the CLI tool `.agents/skills/kanz-al-tahqiq/scripts/check_verse_meter.py`.
+- **Transliteration & Orthography Standard:** Consult `TRANSLITERATION_MASTER_SHEET.md` (also synced in `.agents/skills/kanz-al-tahqiq/`) for the comprehensive 40+ element matrix, universal `al-` non-assimilation rule, and Unicode NFC norms.
+- **Generating New Documents / Ingesting Files:** Consult `PROMPT_MASTER_SHEET.md` (also synced in `.agents/skills/kanz-al-tahqiq/`) for 15 specialized prompt templates covering PDFs, articles, speeches, DOCX creation, and classical Mutūn.
 
 ---
 
@@ -131,7 +136,11 @@ The repository maintains standard 5-column lexicons bridging Arabic, translitera
 2. **Malayalam Technical Vernacular:**
    - Maintain traditional Dars loanwords alongside explanatory Malayalam (e.g., മൗദൂഅ് for subject, മഹ്മൂൽ for predicate, ഖദിയ്യ for proposition, വദ്അ് for conventional assignment).
 3. **Transliteration System:**
-   - Follow standard ALA-LC/IJMES romanization: `ā`, `ī`, `ū`, `th` (ث), `ḥ` (ح), `kh` (خ), `dh` (ذ), `sh` (ش), `ṣ` (ص), `ḍ` (ض), `ṭ` (ط), `ẓ` (ظ), `ʿ` (ع), `gh` (غ), `ʾ` (ء).
+   - Follow the authoritative repository standard codified in [TRANSLITERATION_MASTER_SHEET.md](file:///Users/apple/Desktop/docs/Kanz-al-Tahqiq/Kanz-al-Tahqiq-pub/TRANSLITERATION_MASTER_SHEET.md):
+     - **Definite Article:** Always non-assimilated `al-` before both solar and lunar letters (`al-shams`, `al-raḥmān`, `al-kitāb`).
+     - **Tāʾ Marbūṭah:** Pausal `-ah` (*madrasah*, *risālah*) and construct `-at` (*Madīnat al-Munawwarah*, *Risālat al-Tawḥīd*).
+     - **Hamzah & ʿAyn:** Strict glyph differentiation: `ʾ` (`U+02BE`) for Hamzah (omitted initially) and `ʿ` (`U+02BF`) for ʿAyn. Never use straight apostrophes `'` or backticks `` ` ``.
+     - **Unicode Normalization:** Always encode in precomposed **Unicode NFC Form** (`ā`, `ī`, `ū`, `ḥ`, `ṣ`, `ḍ`, `ṭ`, `ẓ`).
 
 ---
 
@@ -212,11 +221,29 @@ Verifies all external hyperlinks across the repository: validates Shamela book I
 python3 .agents/skills/kanz-al-tahqiq/scripts/validate_citations.py
 ```
 
+### 7.4. Multilingual DOCX Compiler (`markdown_to_docx.py`)
+Compiles any Markdown file into a styled Microsoft Word document with custom typography bindings: Amiri for Arabic RTL, Manjari for Malayalam, and Georgia for English, with automated table styling, page breaks, and callout boxes.
+```bash
+python3 scripts/markdown_to_docx.py input.md output.docx
+```
+
+### 7.5. Academic Transliteration Linter & Normalizer (`lint_transliteration.py`)
+Audits all Markdown documents against the repository transliteration standard. Flags Unicode NFD decomposed marks, straight quote / backtick misuses, broken article hyphenations, and colloquial contractions (*inshallah*, *alhamdulillah*, *pbuh*), with an automated in-place `--fix` feature:
+```bash
+python3 scripts/lint_transliteration.py --all
+python3 scripts/lint_transliteration.py --fix path/to/document.md
+```
+
 ---
 
 ## 8. Pre-Commit Verification Checklist
 
 Before finalizing any edit, addition, or refactoring in this repository, run through this checklist:
+- [ ] **Arabic Vocalization:** 100% complete tashkīl on all classical Matn, Hadith, and poetry.
+- [ ] **Directionality:** All Arabic blocks wrapped in `<div dir="rtl" lang="ar">` containers.
+- [ ] **Transliteration Compliance:** Run `python3 scripts/lint_transliteration.py <file>` (verify Unicode NFC, non-assimilated `al-`, pausal `-ah`, and strict `ʾ`/`ʿ`).
+- [ ] **Citation Verification:** Run `python3 .agents/skills/kanz-al-tahqiq/scripts/validate_citations.py` to ensure all Quran, Sunnah, and Shamela links are active and canonical.
+- [ ] **RTL Linting:** Run `python3 .agents/skills/kanz-al-tahqiq/scripts/validate_markdown_rtl.py` to ensure clean tag balance and valid tables.
 
 - [ ] **RTL Containers:** Are all Arabic texts wrapped inside `<div dir="rtl" lang="ar">` blocks?
 - [ ] **Tashkīl Preserved:** Has full vocalization been preserved on all Mutūn and poetic verses?

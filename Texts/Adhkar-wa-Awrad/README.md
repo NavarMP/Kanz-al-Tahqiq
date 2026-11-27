@@ -86,6 +86,24 @@
     <td>مناجاة الأئمة العارفين، وشواهد التوحيد والزهد مع أوزان البحور العروضية</td>
     <td style="text-align: center;"><a href="09-Munajat-wa-Shawahid/README.md">📖 مطالعة</a></td>
   </tr>
+  <tr>
+    <td style="text-align: center;"><b>١٠</b></td>
+    <td><a href="10-Ziyarat-wa-Janaiz/README.md"><b>الجنائز وزيارة القبور والمشاهد الشريفة</b></a></td>
+    <td>الاحتضار والتلقين، صلاة الجنازة، الدفن والتعزية، زيارة القبور والروضة النبوية</td>
+    <td style="text-align: center;"><a href="10-Ziyarat-wa-Janaiz/README.md">📖 مطالعة</a></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><b>١١</b></td>
+    <td><a href="11-Safar-wa-Rihlah/README.md"><b>أدعية السفر والحل والترحال</b></a></td>
+    <td>الخروج والتوديع، ركوب السيارة والطائرة والسفينة، الصعود والهبوط، ونزول الفندق</td>
+    <td style="text-align: center;"><a href="11-Safar-wa-Rihlah/README.md">📖 مطالعة</a></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><b>١٢</b></td>
+    <td><a href="12-Awqat-al-Ijabah/README.md"><b>أوقات الإجابة والأحوال الكونية</b></a></td>
+    <td>الثلث الأخير والأسحار، بين الأذان والإقامة، الغيث والرعد والرياح، الكسوف، والخوف</td>
+    <td style="text-align: center;"><a href="12-Awqat-al-Ijabah/README.md">📖 مطالعة</a></td>
+  </tr>
 </tbody>
 </table>
 

@@ -81,6 +81,29 @@ def check_file(filepath):
         if re.search(r'\[([^\]]+)\]\(\s*\)', raw_line):
             warnings.append(f"Empty Markdown link '[]()' at line {idx}")
 
+    # 5. Scan & Page Noise Artifact Check (De-Pagination protocol)
+    scan_page_patterns = [
+        re.compile(r'<!--\s*\[Page\s+\d+\]\s*-->', re.IGNORECASE),
+        re.compile(r'\[صـ\s*\d+\]'),
+        re.compile(r'\bPage\s+\d+\s+of\s+\d+\b', re.IGNORECASE),
+    ]
+    for idx, raw_line in enumerate(lines, 1):
+        for pattern in scan_page_patterns:
+            m = pattern.search(raw_line)
+            if m:
+                warnings.append(f"Physical page artifact detected at line {idx}: '{m.group(0)}' (violates de-pagination protocol)")
+
+    # 6. Tashkil / Vocalization Density Check for Arabic Mutūn
+    # Arabic letters: \u0621-\u064A
+    # Arabic diacritics: \u064B-\u065F\u0670
+    arabic_letters = len(re.findall(r'[\u0621-\u064A]', content))
+    arabic_diacritics = len(re.findall(r'[\u064B-\u065F\u0670]', content))
+    if arabic_letters > 300 and has_rtl_open:
+        diacritic_ratio = arabic_diacritics / arabic_letters
+        # For files in Texts/ (classical texts), recommend Tashkil al-Tamm
+        if "Texts" in filepath and diacritic_ratio < 0.15:
+            warnings.append(f"Low diacritic density ({diacritic_ratio:.1%} vocalized, {arabic_diacritics} harakat / {arabic_letters} letters). Classical Mutūn should have Tashkīl al-Tāmm.")
+
     return errors, warnings, arabic_count
 
 def main():
