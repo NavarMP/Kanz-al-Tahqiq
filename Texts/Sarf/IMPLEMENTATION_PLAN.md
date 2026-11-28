@@ -1,8 +1,24 @@
 # Implementation Plan: Complete the Four Sarf Text Editions
 
-**Status:** Planning baseline  
+**Status:** In progress — OCR drafts created; source collation pending  
 **Scope:** Mīzān, al-Ajnās al-Ṣughrā, al-Ajnās al-Kubrā, and Zanjān  
 **Goal:** Produce complete, source-faithful, well-structured Markdown editions that can eventually stand in place of the scanned PDFs.
+
+## Execution progress (2026-11-28)
+
+- Visually screened Ajnās al-Kubrā PDF pages 33–63. Rebuilt the annex-form summaries and section tables for quadriliteral patterns; separated the closing counts and exercise sections; restored a clearer outline for the workbook activities. This is a layout and coverage screening pass, not line-by-line collation, and the table readings and exercise forms still need detailed checking.
+- Visually screened Mīzān PDF pages 16–109. Reorganized the tense and negation paradigms, review activities, command/prohibition material, heavy- and light-nūn emphasis chapters, and the connected-noun paradigms and workbook pages. Rebuilt the final noun chapter from PDF pages 105–109 as paradigms, derivation notes, footnotes, and numbered exercises. This is a structural screening pass, not line-by-line collation; readings, vocalization, Persian labels, and the exercises still need detailed comparison.
+- Visually screened Zanjān PDF pages 16–25. Restructured the augmented-form summaries, corrected and separated the transitivity explanation and footnote, rebuilt the paired transitivity examples as a table, and clarified the hierarchy of weak-verb classes. This is a layout and coverage screening pass, not line-by-line collation.
+- Current focus: continue page-by-page collation of the restructured texts, starting with Ajnās al-Ṣughrā; PDF pages 17–20 have received a supplementary coverage check and the first exercise blocks are now structured. Then proceed through Ajnās al-Kubrā and Zanjān. Record uncertain readings instead of silently resolving them. Then review the shared front matter and appendices, translation parity, and study aids. No page is yet fully collated.
+
+## Execution progress (2026-11-27)
+
+- Recorded page counts and SHA-256 fingerprints for the three PDFs in SOURCE_COVERAGE.md. The PDFs remain unchanged.
+- Mapped the four work-specific spans and extracted first-pass OCR for each in-scope page: Mīzān 16–109, Ṣughrā 16–32, Kubrā 33–63, and Zanjān 16–94. These are now clearly labeled working drafts in the four core Markdown paths.
+- Visually inspected Mīzān and Zanjān PDF pages 16–25; reconstructed Mīzān's first two paradigms and practice sections, corrected clear Zanjān opening-page readings including التغيير and حروف الحلق, and rebuilt its transitivity lesson/exercise from the page images. These were screening passes, not full line-by-line collations.
+- Screened Ajnās al-Ṣughrā PDF pages 16–32 visually. Rebuilt the five-door, fourteen-form, quadriliteral, and verb-classification charts as Markdown tables; restored the second model and items 9–10 in the exercise list; separated the quadriliteral note from its chart. This remains a screening pass, not a line-by-line collation.
+- Replaced README claims that described nonexistent files or asserted unverified completeness. Added a Sarf index and retained PDFs.
+- Remaining work: line-by-line collation of every source page (including verification of the Ṣughrā and Kubrā table/activity edits), review of shared front matter and appendices, translation parity, study-aid audit, and final rendered review. The OCR drafts must not be treated as final editions or as grounds to remove the PDFs.
 
 ## 1. Request and source-document boundaries
 
@@ -13,7 +29,7 @@
 
 ## 2. Audit baseline
 
-| Work | Available scan | Current core Markdown | Initial observation |
+| Work | Available scan | Core Markdown at outset | Initial observation |
 |---|---|---|---|
 | Mīzān | `mizan.pdf` — 125 pages | `mizan/mizan.md` | A substantial file already exists. Audit it against every source section and paradigm; file size alone cannot establish completeness or accuracy. |
 | Ajnās al-Ṣughrā | `ajnas.pdf` — 79 pages, apparently containing the Ajnās material | `ajnas-al-sughra/ajnas-al-sughra.md`, plus English and Malayalam files | The Arabic core is short relative to the scanned source. First locate its exact page span and distinguish source text from explanation. |
@@ -24,7 +40,7 @@ Additional observations to resolve during the audit:
 
 - The PDFs have a mixed OCR/text layer. `pdfplumber` output is badly reordered or corrupted on content pages, so it is not a reliable transcription source. Arabic OCR through macOS Vision (`ar-SA`) produced a usable draft; it still needs page-image collation for diacritics, tables, and ambiguous words. `pdftotext` and Tesseract are unavailable; rendered page images are available through `pdftoppm`.
 - Initial page mapping shows shared front matter in pages 1–15 of each PDF, then work-specific text. The Ajnās scan contains Ṣughrā on PDF pages 16–32 and Kubrā on 33–63. In the Mīzān scan, the main text and exercises run through page 109; shared rules, glossary, references, and contents follow on 110–125. In the Zanjān scan, the text and exercises run through page 94; shared appendices follow on 95–110. Verify all transitions and duplicate appendices during the coverage audit.
-- The Ajnās READMEs advertise `Notes/Chapters/` and other supporting files that are not present in the current tree. The Kubrā README also advertises an analytics file that is absent. The Zanjān README describes translations and companion files not present in the current tree. Reconcile these descriptions with actual deliverables.
+- At the start of the audit, the Ajnās READMEs advertised `Notes/Chapters/` and other supporting files that were absent; the Kubrā README also advertised an analytics file that was absent. The Zanjān README described translations and companion files not present in the tree. These README descriptions have now been replaced with actual file inventories; the study aids themselves still need audit.
 - Existing Arabic, English, and Malayalam files have different lengths and structures. Translation completeness and commentary must be assessed section by section, not inferred from a title or overview.
 - Authorship, dates, edition details, page ranges, and claims about the number of chapters or patterns in current READMEs must be verified against the scan itself before being retained as facts.
 
@@ -66,7 +82,7 @@ Creating new full English or Malayalam translations for Mīzān or Zanjān is ou
 2. Preserve the source wording, examples, ordering, and meaningful footnotes. Do not silently normalize a disputed reading or add a grammatical rule because it seems expected.
 3. Preserve vocalization where visible. Add or repair vocalization only when supported by the source or a separately verified reference; record unresolved readings in the ledger instead of guessing.
 4. Keep uncertain or illegible material visible in an editorial query list until resolved. Never turn OCR confidence into an unmarked source reading.
-5. Keep raw OCR and intermediate page renders outside the publication tree. The finished master text should contain the readable text, not OCR artifacts or physical page furniture.
+5. Keep raw OCR and intermediate page renders outside the publication tree. The final master text should contain readable, source-faithful Arabic rather than raw OCR artifacts or physical page furniture. Until page collation is complete, the core Markdown files are explicitly labeled as working OCR drafts; raw JSONL and intermediate page renders remain outside the publication tree.
 
 **Gate C:** Every in-scope line, table, example, and exercise is collated against the scan or explicitly recorded as unresolved.
 
