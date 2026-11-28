@@ -4,7 +4,7 @@
 
 [Open the Arabic working text](ajnas-al-kubra.md). It covers PDF pages 33–63 of the combined ajnas.pdf scan and now includes the first-pass OCR for the text and its printed practice activities.
 
-**Review state:** OCR draft; page-by-page visual collation is pending. The main file is not yet a verified edition and should not be used to retire the PDF.
+**Review state:** OCR-based working draft; pages 33–63 have been visually screened and key patterns, count tables, and workbook pages have received follow-up checks. Line-by-line collation is still pending, and the PDF remains necessary for verification.
 
 ## Available supporting files
 

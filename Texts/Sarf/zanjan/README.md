@@ -4,7 +4,7 @@
 
 [Open the Arabic working text](zanjan-al-matn.md). It covers PDF pages 16–94 of zanjan.pdf, including the author note, text, examples, and printed practice activities.
 
-**Review state:** OCR draft; pages 16–25 received a visual screening pass, including reconstruction of the opening tables and the transitivity exercises. No page has completed line-by-line collation. The main file is not yet a verified edition and should not be used to retire the PDF.
+**Review state:** Working Arabic draft; PDF pages 16–94 have received a visual structural screening pass. PDF pages 71–73, 88, and 93–94 have been collated line by line. The weak-verb/lafīf chapters, hamza chapter, final noun-pattern chapter, and printed activities have been restructured where legible. A side-by-side table now records the Hijazi and Tamimi forms of **اِسْتَحْيَى** from PDF page 76; its emphatic-form vocalization remains under review. The hamza chapter now includes the extended **رَأَى** and **أَرَى** paradigms from PDF pages 82–87, but some emphatic forms and underlying derivations still need a second reading. PDF page 80’s marked exercise verbs are distinguished in the Markdown. The 229–232 noun chapter (PDF pages 89–92) has source-organized tables and page-specific note summaries but remains uncollated. Several rare derivations and detailed paradigms remain unresolved or summarized; all other pages remain uncollated. The main file is not yet a verified edition and should not be used to retire the PDF.
 
 ## Available supporting files
 
